@@ -72,7 +72,7 @@ The power consumption was during calculations was read with the tool "nvidia-smi
 
 As discussed in the paper, the matrix-matrix multiplication kernel is based on the OpenCL-based example included in the Intel FPGA SDK for OpenCL 19.2. Our modified version that reaches up to 3.4 TFLOP/s can be found in fpga/synthesis/device/matrix_mult.cl. It was synthesized for the 19.2_hpc BSP for the Bittware 520N board.
 The synthesis can be executed, provided the corresponding SDK and BSP in installed with the script fpga/synthesis/job.sh.
-The resulting bitstream can be found in fpga/bitstream/matrix_mult.aocx.
+The resulting bitstream can be found in fpga/bitstream/matrix_mult.aocx. Please note, that the bitstream was too large to be included in the Github-Repository and is instead hosted on Github's Git Large File Storage (LFS, https://git-lfs.github.com/).
 
 ## FPGA-accelerated Implementation
 
