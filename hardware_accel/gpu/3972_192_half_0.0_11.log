@@ -1,0 +1,56 @@
+dim=3976
+Tinit context=1.118168
+Tinit convert1=0.000001
+Tinit convert=1.138677
+Tinit copy=1.148456
+Tinit=1.148470
+Start Iteration!
+Iteration = 0, convergence = 8.558992, 73.256344
+titer=0.006743 GFLOPS=377.129389 GFLOPS/s=55932.206696 
+Tcopy=0.011890
+Tend convert naiv=0.010608
+t dealloc=0.003668
+t destroy handle=0.004583
+Tend=0.027119
+total T=1.182359 GFLOPS=377.129389 GFLOPS/s=318.963555 
+dim=3976
+Tinit context=0.001367
+Tinit convert1=0.000000
+Tinit convert=0.008950
+Tinit copy=0.018471
+Tinit=0.018485
+Start Iteration!
+Iteration = 0, convergence = 8.558992, 73.256344
+titer=0.006797 GFLOPS=377.129389 GFLOPS/s=55488.503726 
+Iteration = 1, convergence = 2.762887, 7.633542
+titer=0.006683 GFLOPS=377.129389 GFLOPS/s=56434.225954 
+Iteration = 2, convergence = 0.988341, 0.976818
+titer=0.006689 GFLOPS=377.129389 GFLOPS/s=56376.648579 
+Iteration = 3, convergence = 0.235610, 0.055512
+titer=0.006693 GFLOPS=377.129389 GFLOPS/s=56344.885347 
+Iteration = 4, convergence = 0.030093, 0.000906
+titer=0.006687 GFLOPS=377.129389 GFLOPS/s=56397.877026 
+Iteration = 5, convergence = 0.001430, 0.000002
+titer=0.006695 GFLOPS=377.129389 GFLOPS/s=56330.561301 
+Iteration = 6, convergence = 0.000597, 0.000000
+titer=0.006691 GFLOPS=377.129389 GFLOPS/s=56364.852204 
+Iteration = 7, convergence = 0.000514, 0.000000
+titer=0.006685 GFLOPS=377.129389 GFLOPS/s=56414.935942 
+Iteration = 8, convergence = 0.000503, 0.000000
+titer=0.006690 GFLOPS=377.129389 GFLOPS/s=56376.218856 
+Iteration = 9, convergence = 0.000463, 0.000000
+titer=0.006615 GFLOPS=377.129389 GFLOPS/s=57007.988234 
+Iteration = 10, convergence = 0.000466, 0.000000
+titer=0.006573 GFLOPS=377.129389 GFLOPS/s=57372.479185 
+Tcopy=0.011173
+Tend convert naiv=0.021905
+t dealloc=0.003308
+t destroy handle=0.004561
+Tend=0.037677
+total T=0.129705 GFLOPS=4148.423280 GFLOPS/s=31983.549480 
+ Matrix size=        3972
+ Block size=         192
+ convergence crit=   0.0000000000000000     
+ padded size        3976
+ E=           1  -74.261423222698483     
+ INV=           1   3.4902282854849788E-002   4.1650377048370046E-003

@@ -1,0 +1,64 @@
+dim=3976
+Tinit context=1.153855
+Tinit convert1=0.000000
+Tinit convert=1.171043
+Tinit copy=1.210111
+Tinit=1.210125
+Start Iteration!
+Iteration = 0, convergence = 8.556852, 73.219708
+titer=0.832013 GFLOPS=377.129389 GFLOPS/s=453.273501 
+Tcopy=0.052298
+Tend convert naiv=0.009750
+t dealloc=0.005481
+t destroy handle=0.006926
+Tend=0.069000
+total T=2.111166 GFLOPS=377.129389 GFLOPS/s=178.635605 
+dim=3976
+Tinit context=0.004370
+Tinit convert1=0.000000
+Tinit convert=0.014312
+Tinit copy=0.053483
+Tinit=0.053498
+Start Iteration!
+Iteration = 0, convergence = 8.556852, 73.219708
+titer=0.785299 GFLOPS=377.129389 GFLOPS/s=480.236905 
+Iteration = 1, convergence = 2.762820, 7.633173
+titer=0.785290 GFLOPS=377.129389 GFLOPS/s=480.241948 
+Iteration = 2, convergence = 0.987837, 0.975821
+titer=0.784682 GFLOPS=377.129389 GFLOPS/s=480.614010 
+Iteration = 3, convergence = 0.235477, 0.055449
+titer=0.784638 GFLOPS=377.129389 GFLOPS/s=480.641432 
+Iteration = 4, convergence = 0.030236, 0.000914
+titer=0.784643 GFLOPS=377.129389 GFLOPS/s=480.638309 
+Iteration = 5, convergence = 0.001232, 0.000002
+titer=0.787307 GFLOPS=377.129389 GFLOPS/s=479.011789 
+Iteration = 6, convergence = 0.000001, 0.000000
+titer=0.790956 GFLOPS=377.129389 GFLOPS/s=476.801721 
+Iteration = 7, convergence = 0.000000, 0.000000
+titer=0.791811 GFLOPS=377.129389 GFLOPS/s=476.287262 
+Iteration = 8, convergence = 0.000000, 0.000000
+titer=0.791725 GFLOPS=377.129389 GFLOPS/s=476.338700 
+Iteration = 9, convergence = 0.000000, 0.000000
+titer=0.791715 GFLOPS=377.129389 GFLOPS/s=476.344924 
+Iteration = 10, convergence = 0.000000, 0.000000
+titer=0.791788 GFLOPS=377.129389 GFLOPS/s=476.300988 
+Iteration = 11, convergence = 0.000000, 0.000000
+titer=0.791719 GFLOPS=377.129389 GFLOPS/s=476.342614 
+Iteration = 12, convergence = 0.000000, 0.000000
+titer=0.791721 GFLOPS=377.129389 GFLOPS/s=476.341219 
+Iteration = 13, convergence = 0.000000, 0.000000
+titer=0.791724 GFLOPS=377.129389 GFLOPS/s=476.339223 
+Iteration = 14, convergence = 0.000000, 0.000000
+titer=0.791729 GFLOPS=377.129389 GFLOPS/s=476.336351 
+Tcopy=0.053006
+Tend convert naiv=0.008687
+t dealloc=0.006544
+t destroy handle=0.008050
+Tend=0.069777
+total T=11.960092 GFLOPS=5656.940836 GFLOPS/s=472.984726 
+ Matrix size=        3972
+ Block size=         192
+ convergence crit=   0.0000000000000000     
+ padded size        3976
+ E=           1  -74.249194445722438     
+ INV=           1   1.9169441211534235E-013   1.4014236869812433E-014

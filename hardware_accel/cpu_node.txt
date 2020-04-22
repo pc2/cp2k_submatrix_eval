@@ -1,0 +1,521 @@
+CPLUS_INCLUDE_PATH=/cm/shared/opt/intel/19.04/clck/2019.4.0/include
+MKLROOT=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl
+_ModuleTable011_=ZHVsZWZpbGVzIiwiL2NtL2xvY2FsL21vZHVsZWZpbGVzIiwiL2V0Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL01vZHVsZXMvbW9kdWxlZmlsZXMiLCIvY20vc2hhcmVkL21vZHVsZWZpbGVzIiwiL29wdC9jcmF5L21vZHVsZWZpbGVzIiwiL29wdC9jcmF5L3BlL2NyYXlwZS9kZWZhdWx0L21vZHVsZWZpbGVzIiwiL29wdC9tb2R1bGVmaWxlcyIsIi9jbS9zaGFyZWQvYXBwcy9wYzIvcGMyYWRtaW4vREVQUkVDQVRFRC1NT0RVTEVTIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9jbS9sb2NhbC9tb2R1bGVmaWxlczovY20vc2hhcmVkL21vZHVsZWZpbGVzOi9ldGMvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNy
+MANPATH=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/share/man:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/share/man:/cm/shared/opt/intel/19.04/itac/2019.4.036/man:/cm/shared/opt/intel/19.04/clck/2019.4.0/man:/cm/shared/opt/intel/19.04/man/common:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/man:/cm/shared/opt/intel/19.04/documentation_2019/en/debugger/gdb-ia/man:/opt/cray/slurm/17.11.8/share/man:/usr/share/lmod/lmod/share/man::/usr/local/share/man:/usr/share/man/overrides:/usr/share/man:/cm/local/apps/environment-modules/current/share/man
+XDG_SESSION_ID=85074
+EBDEVELGCC=/cm/shared/apps/pc2/EB-SW/software/compiler/GCC/8.2.0-2.31.1/easybuild/compiler-GCC-8.2.0-2.31.1-easybuild-devel
+HOSTNAME=ln-0001
+_ModuleTable003_=ZGVyIl09MTAscHJvcFQ9e30sWyJyZWZfY291bnQiXT00LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImNvbXBpbGVyL0dDQy84LjIuMC0yLjMxLjEiLH0sWyJjb21waWxlci9HQ0Njb3JlIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9FQi1TVy9tb2R1bGVzL2FsbC9jb21waWxlci9HQ0Njb3JlLzguMi4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjb21waWxlci9HQ0Njb3JlLzguMi4wIixbImxvYWRPcmRlciJdPTgscHJvcFQ9e30sWyJyZWZfY291bnQiXT0yLFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImNvbXBpbGVyL0dDQ2NvcmUvOC4yLjAiLH0sWyJjcmF5cGUtbmV0d29yay1v
+VT_MPI=impi4
+__LMOD_REF_COUNT_CLASSPATH=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/lib/mpi.jar:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/lib/daal.jar:1
+EBVERSIONBINUTILS=2.31.1
+INTEL_LICENSE_FILE=27000@license5.uni-paderborn.de
+IPPROOT=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/ipp
+_ModuleTable009_=PSJwYzJmcyIsfSxzaGFyZWQ9e1siZm4iXT0iL2NtL2xvY2FsL21vZHVsZWZpbGVzL3NoYXJlZCIsWyJmdWxsTmFtZSJdPSJzaGFyZWQiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJzaGFyZWQiLH0sc2x1cm09e1siZm4iXT0iL29wdC9jcmF5L21vZHVsZWZpbGVzL3NsdXJtLzE3LjExLjgiLFsiZnVsbE5hbWUiXT0ic2x1cm0vMTcuMTEuOCIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InNsdXJtIix9LFsidG9vbHMvYmludXRpbHMiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNX
+SHELL=/bin/bash
+TERM=xterm-256color
+CLCK_ROOT=/cm/shared/opt/intel/19.04/clck/2019.4.0
+HISTSIZE=1000
+EBROOTGCCCORE=/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0
+I_MPI_FABRICS=shm:ofi
+SSH_CLIENT=131.234.142.134 59294 22
+MODULEPATH_ROOT=/usr/share/modulefiles
+LMOD_SYSTEM_DEFAULT_MODULES=DefaultModules
+BUILDWITH=intel
+LIBRARY_PATH=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/lib:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib64:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib:/cm/shared/opt/intel/19.04/clck/2019.4.0/lib/intel64:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/lib:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/ipp/lib/intel64:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64/gcc4.7:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/lib/intel64_lin:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/../tbb/lib/intel64_lin/gcc4.4
+LMOD_PKG=/usr/share/lmod/lmod
+PC2DATA=/upb/departments/pc2/groups
+PC2SCRATCH=/upb/scratch/departments/pc2/groups
+LMOD_VERSION=7.7.14
+__LMOD_REF_COUNT_BUILDWITH=intel:1
+PSXE_2019=1
+SSH_TTY=/dev/pts/13
+__LMOD_REF_COUNT_LOADEDMODULES=shared:1;pc2fs:1;slurm/17.11.8:1;craype-x86-skylake:1;craype-network-opa:1;DefaultModules:1;intel/19.0.4:1;compiler/GCCcore/8.2.0:1;tools/binutils/2.31.1-GCCcore-8.2.0:1;compiler/GCC/8.2.0-2.31.1:1;libs/libxc/4.3.4_intel_19.0.4:1;libs/elpa/2019.05.001_omp_intel_19.0.4:1;libs/libxsmm/4c3a692_intel_19.0.4:1;libs/libint/2.5.0_lmax_6_intel_19.0.4:1;chem/CP2K/9f58d81c3fe411ec5fe0c96ea3e01772f71c7913_psmp:1
+_ModuleTable007_=ZSIsWyJ1c2VyTmFtZSJdPSJsaWJzL2xpYmludC8yLjUuMF9sbWF4XzZfaW50ZWxfMTkuMC40Iix9LFsibGlicy9saWJ4YyJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvQ0hFTV9QSFlTX1NXL21vZHVsZXMvbGlicy9saWJ4Yy80LjMuNF9pbnRlbF8xOS4wLjQubHVhIixbImZ1bGxOYW1lIl09ImxpYnMvbGlieGMvNC4zLjRfaW50ZWxfMTkuMC40IixbImxvYWRPcmRlciJdPTExLHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJsaWJzL2xpYnhjLzQuMy40X2ludGVsXzE5LjAuNCIsfSxbImxpYnMvbGlieHNtbSJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvQ0hFTV9QSFlT
+slurm_VERSION=17.11.8
+USER=USER
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LMOD_sys=Linux
+LD_LIBRARY_PATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libint/default-skx/lib:/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxsmm_4c3a692/lib:/cm/shared/apps/pc2/CHEM_PHYS_SW/tools/elpa/elpa-2019.05.001/prefix/lib:/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxc/default-skx/lib:/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/lib:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib64:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib:/cm/shared/opt/intel/19.04/itac/2019.4.036/intel64/slib:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/lib:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/lib/release:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/lib:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/ipp/lib/intel64:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64/gcc4.7:/cm/shared/opt/intel/19.04/debugger_2019/libipt/intel64/lib:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/lib/intel64_lin:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/../tbb/lib/intel64_lin/gcc4.4:/opt/cray/slurm/17.11.8/lib:/opt/cray/pe/lib64:/opt/cray/pe/lib64/cce:/opt/cray/lib64
+__LMOD_REF_COUNT_FI_PROVIDER_PATH=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/lib/prov:1
+EBDEVELBINUTILS=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/easybuild/tools-binutils-2.31.1-GCCcore-8.2.0-easybuild-devel
+PSTLROOT=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/pstl
+_ModuleTable010_=L21vZHVsZXMvYWxsL3Rvb2xzL2JpbnV0aWxzLzIuMzEuMS1HQ0Njb3JlLTguMi4wLmx1YSIsWyJmdWxsTmFtZSJdPSJ0b29scy9iaW51dGlscy8yLjMxLjEtR0NDY29yZS04LjIuMCIsWyJsb2FkT3JkZXIiXT05LHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT0yLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ0b29scy9iaW51dGlscy8yLjMxLjEtR0NDY29yZS04LjIuMCIsfSx9LG1wYXRoQT17Ii9jbS9zaGFyZWQvYXBwcy9wYzIvQ0hFTV9QSFlTX1NXL21vZHVsZXMiLCIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsIiwiL2NtL3NoYXJlZC9hcHBzL3BjMi9wYzJhZG1pbi9tb2R1bGVzIiwiL29wdC9jcmF5L3BlL21v
+FI_PROVIDER_PATH=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/lib/prov
+_ModuleTable004_=cGEiXT17WyJmbiJdPSIvb3B0L2NyYXkvcGUvY3JheXBlL2RlZmF1bHQvbW9kdWxlZmlsZXMvY3JheXBlLW5ldHdvcmstb3BhIixbImZ1bGxOYW1lIl09ImNyYXlwZS1uZXR3b3JrLW9wYSIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImNyYXlwZS1uZXR3b3JrLW9wYSIsfSxbImNyYXlwZS14ODYtc2t5bGFrZSJdPXtbImZuIl09Ii9vcHQvY3JheS9wZS9jcmF5cGUvZGVmYXVsdC9tb2R1bGVmaWxlcy9jcmF5cGUteDg2LXNreWxha2UiLFsiZnVsbE5hbWUiXT0iY3JheXBlLXg4Ni1za3lsYWtlIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJd
+CPATH=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/include:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/include:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/ipp/include:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/include:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/pstl/include:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/tbb/include:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/include
+INSPECTOR_2019_DIR=/cm/shared/opt/intel/19.04/inspector_2019.4.0.597413
+__LMOD_REF_COUNT_LIBINTPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libint/default-skx:1
+__LMOD_REF_COUNT__LMFILES_=/cm/local/modulefiles/shared:1;/cm/shared/apps/pc2/pc2admin/modules/pc2fs:1;/opt/cray/modulefiles/slurm/17.11.8:1;/opt/cray/pe/craype/default/modulefiles/craype-x86-skylake:1;/opt/cray/pe/craype/default/modulefiles/craype-network-opa:1;/usr/share/modulefiles/DefaultModules.lua:1;/opt/cray/modulefiles/intel/19.0.4:1;/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCCcore/8.2.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/tools/binutils/2.31.1-GCCcore-8.2.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCC/8.2.0-2.31.1.lua:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/libs/libxc/4.3.4_intel_19.0.4.lua:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/libs/elpa/2019.05.001_omp_intel_19.0.4.lua:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/libs/libxsmm/4c3a692_intel_19.0.4.lua:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/libs/libint/2.5.0_lmax_6_intel_19.0.4.lua:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/chem/CP2K/9f58d81c3fe411ec5fe0c96ea3e01772f71c7913_psmp.lua:1
+PE_PRODUCT_LIST=CRAYPE_X86_SKYLAKE
+LMOD_PREPEND_BLOCK=normal
+__LMOD_REF_COUNT_CONDA_PATH_BACKUP=/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843/bin64:1;/cm/shared/opt/intel/19.04/vtune_amplifier_2019.4.0.597835/bin64:1;/cm/shared/opt/intel/19.04/inspector_2019.4.0.597413/bin64:1;/cm/shared/opt/intel/19.04/itac/2019.4.036/intel64/bin:2;/cm/shared/opt/intel/19.04/clck/2019.4.0/bin/intel64:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/bin/intel64:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:1;/cm/shared/opt/intel/19.04/debugger_2019/gdb/intel64/bin:1;/opt/cray/slurm/17.11.8/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/upb/departments/pc2/users/k/kel/bin:1
+NLSPATH=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64/locale/%l_%t/%N:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin/locale/%l_%t/%N:/cm/shared/opt/intel/19.04/debugger_2019/gdb/intel64/share/locale/%l_%t/%N
+PATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/CP2K/DEV/9f58d81c3fe411ec5fe0c96ea3e01772f71c7913/exe/Linux-x86-64-intel:/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libint/default-skx/bin:/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxsmm_4c3a692/bin:/cm/shared/apps/pc2/CHEM_PHYS_SW/tools/elpa/elpa-2019.05.001/prefix/bin:/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxc/default-skx/bin:/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/bin:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/bin:/cm/shared/opt/intel/19.04/intelpython3/bin:/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843/bin64:/cm/shared/opt/intel/19.04/vtune_amplifier_2019.4.0.597835/bin64:/cm/shared/opt/intel/19.04/inspector_2019.4.0.597413/bin64:/cm/shared/opt/intel/19.04/itac/2019.4.036/intel64/bin:/cm/shared/opt/intel/19.04/clck/2019.4.0/bin/intel64:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/bin/intel64:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/cm/shared/opt/intel/19.04/debugger_2019/gdb/intel64/bin:/opt/cray/slurm/17.11.8/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/upb/departments/pc2/users/r/USER/bin:/cm/shared/opt/intel/19.04/parallel_studio_xe_2019.4.070/bin
+MAIL=/var/spool/mail/USER
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXtEZWZhdWx0TW9kdWxlcz17WyJmbiJdPSIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0RlZmF1bHRNb2R1bGVzLmx1YSIsWyJmdWxsTmFtZSJdPSJEZWZhdWx0TW9kdWxlcyIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09IkRlZmF1bHRNb2R1bGVzIix9LFsiY2hlbS9DUDJLIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9DSEVNX1BIWVNfU1cvbW9kdWxlcy9jaGVtL0NQMksvOWY1OGQ4MWMzZmU0MTFlYzVm
+LIBXSMMPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxsmm_4c3a692
+__LMOD_REF_COUNT_NLSPATH=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64/locale/%l_%t/%N:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin/locale/%l_%t/%N:1;/cm/shared/opt/intel/19.04/debugger_2019/gdb/intel64/share/locale/%l_%t/%N:1
+VT_ADD_LIBS=-ldwarf -lelf -lvtunwind -lm -lpthread
+CONDA_PATH_BACKUP=/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843/bin64:/cm/shared/opt/intel/19.04/vtune_amplifier_2019.4.0.597835/bin64:/cm/shared/opt/intel/19.04/inspector_2019.4.0.597413/bin64:/cm/shared/opt/intel/19.04/itac/2019.4.036/intel64/bin:/cm/shared/opt/intel/19.04/clck/2019.4.0/bin/intel64:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/bin/intel64:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/cm/shared/opt/intel/19.04/debugger_2019/gdb/intel64/bin:/opt/cray/slurm/17.11.8/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/upb/departments/pc2/users/k/kel/bin
+__LMOD_REF_COUNT_CPLUS_INCLUDE_PATH=/cm/shared/opt/intel/19.04/clck/2019.4.0/include:1
+LMOD_SETTARG_CMD=:
+CONDA_PREFIX=/cm/shared/opt/intel/19.04/intelpython3
+TBBROOT=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/tbb
+PWD=/scratch/hpc-prf-ldft/USER/cp2k_pc2
+PC2SW=/cm/shared/apps/pc2
+__LMOD_REF_COUNT_PE_PRODUCT_LIST=CRAYPE_X86_SKYLAKE:1
+_LMFILES_=/cm/local/modulefiles/shared:/cm/shared/apps/pc2/pc2admin/modules/pc2fs:/opt/cray/modulefiles/slurm/17.11.8:/opt/cray/pe/craype/default/modulefiles/craype-x86-skylake:/opt/cray/pe/craype/default/modulefiles/craype-network-opa:/usr/share/modulefiles/DefaultModules.lua:/opt/cray/modulefiles/intel/19.0.4:/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCCcore/8.2.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/tools/binutils/2.31.1-GCCcore-8.2.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCC/8.2.0-2.31.1.lua:/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/libs/libxc/4.3.4_intel_19.0.4.lua:/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/libs/elpa/2019.05.001_omp_intel_19.0.4.lua:/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/libs/libxsmm/4c3a692_intel_19.0.4.lua:/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/libs/libint/2.5.0_lmax_6_intel_19.0.4.lua:/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/chem/CP2K/9f58d81c3fe411ec5fe0c96ea3e01772f71c7913_psmp.lua
+EBDEVELGCCCORE=/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/easybuild/compiler-GCCcore-8.2.0-easybuild-devel
+LANG=de_DE.UTF-8
+__LMOD_REF_COUNT_PYTHONPATH=/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843/pythonapi:1
+MODULEPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/modules:/cm/shared/apps/pc2/EB-SW/modules/all:/cm/shared/apps/pc2/pc2admin/modules:/opt/cray/pe/modulefiles:/cm/local/modulefiles:/etc/modulefiles:/usr/share/modulefiles:/usr/share/Modules/modulefiles:/cm/shared/modulefiles:/opt/cray/modulefiles:/opt/cray/pe/craype/default/modulefiles:/opt/modulefiles:/cm/shared/apps/pc2/pc2admin/DEPRECATED-MODULES
+LOADEDMODULES=shared:pc2fs:slurm/17.11.8:craype-x86-skylake:craype-network-opa:DefaultModules:intel/19.0.4:compiler/GCCcore/8.2.0:tools/binutils/2.31.1-GCCcore-8.2.0:compiler/GCC/8.2.0-2.31.1:libs/libxc/4.3.4_intel_19.0.4:libs/elpa/2019.05.001_omp_intel_19.0.4:libs/libxsmm/4c3a692_intel_19.0.4:libs/libint/2.5.0_lmax_6_intel_19.0.4:chem/CP2K/9f58d81c3fe411ec5fe0c96ea3e01772f71c7913_psmp
+_ModuleTable_Sz_=12
+EBROOTGCC=/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0
+__LMOD_REF_COUNT_INFOPATH=/cm/shared/opt/intel/19.04/documentation_2019/en/debugger/gdb-ia/info:1
+VT_LIB_DIR=/cm/shared/opt/intel/19.04/itac/2019.4.036/intel64/lib
+EBROOTBINUTILS=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0
+ELPAPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/tools/elpa/elpa-2019.05.001/prefix
+ENABLE_LMOD=1
+EBVERSIONGCC=8.2.0
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+_ModuleTable005_=PSJhY3RpdmUiLFsidXNlck5hbWUiXT0iY3JheXBlLXg4Ni1za3lsYWtlIix9LGludGVsPXtbImZuIl09Ii9vcHQvY3JheS9tb2R1bGVmaWxlcy9pbnRlbC8xOS4wLjQiLFsiZnVsbE5hbWUiXT0iaW50ZWwvMTkuMC40IixbImxvYWRPcmRlciJdPTcscHJvcFQ9e30sWyJyZWZfY291bnQiXT00LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImludGVsLzE5LjAuNCIsfSxbImxpYnMvZWxwYSJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvQ0hFTV9QSFlTX1NXL21vZHVsZXMvbGlicy9lbHBhLzIwMTkuMDUuMDAxX29tcF9pbnRlbF8xOS4wLjQubHVhIixbImZ1bGxOYW1lIl09ImxpYnMvZWxwYS8yMDE5LjA1LjAwMV9vbXBfaW50
+VT_ROOT=/cm/shared/opt/intel/19.04/itac/2019.4.036
+DAALROOT=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal
+HISTCONTROL=ignoredups
+PC2SYSNAME=Noctua
+ADVISOR_2019_DIR=/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843
+PC2PFS=/scratch
+INTEL_PYTHONHOME=/cm/shared/opt/intel/19.04/debugger_2019/python/intel64/
+HOME=/upb/departments/pc2/users/r/USER
+SHLVL=2
+EBVERSIONGCCCORE=8.2.0
+_ModuleTable012_=L3NoYXJlL01vZHVsZXMvbW9kdWxlZmlsZXMiLH0=
+__LMOD_REF_COUNT_PATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/CP2K/DEV/9f58d81c3fe411ec5fe0c96ea3e01772f71c7913/exe/Linux-x86-64-intel:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libint/default-skx/bin:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxsmm_4c3a692/bin:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/tools/elpa/elpa-2019.05.001/prefix/bin:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxc/default-skx/bin:1;/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/bin:1;/cm/shared/opt/intel/19.04/intelpython3/bin:1;/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843/bin64:1;/cm/shared/opt/intel/19.04/vtune_amplifier_2019.4.0.597835/bin64:1;/cm/shared/opt/intel/19.04/inspector_2019.4.0.597413/bin64:1;/cm/shared/opt/intel/19.04/itac/2019.4.036/intel64/bin:2;/cm/shared/opt/intel/19.04/clck/2019.4.0/bin/intel64:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/bin/intel64:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:1;/cm/shared/opt/intel/19.04/debugger_2019/gdb/intel64/bin:1;/opt/cray/slurm/17.11.8/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/upb/departments/pc2/users/r/USER/bin:1;/cm/shared/opt/intel/19.04/parallel_studio_xe_2019.4.070/bin:1
+__LMOD_REF_COUNT_CPATH=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/include:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/include:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/ipp/include:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/include:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/pstl/include:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/tbb/include:2;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/include:1
+_ModuleTable002_=ZTBjOTZlYTNlMDE3NzJmNzFjNzkxM19wc21wLmx1YSIsWyJmdWxsTmFtZSJdPSJjaGVtL0NQMksvOWY1OGQ4MWMzZmU0MTFlYzVmZTBjOTZlYTNlMDE3NzJmNzFjNzkxM19wc21wIixbImxvYWRPcmRlciJdPTE1LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImNoZW0vQ1AySy85ZjU4ZDgxYzNmZTQxMWVjNWZlMGM5NmVhM2UwMTc3MmY3MWM3OTEzX3BzbXAiLH0sWyJjb21waWxlci9HQ0MiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL2NvbXBpbGVyL0dDQy84LjIuMC0yLjMxLjEubHVhIixbImZ1bGxOYW1lIl09ImNvbXBpbGVyL0dDQy84LjIuMC0yLjMxLjEiLFsibG9hZE9y
+SHOST=ln-0001
+CRAYPE_NETWORK_TARGET=opa
+CONDA_PS1_BACKUP=
+VT_ARCH=intel64
+VT_SLIB_DIR=/cm/shared/opt/intel/19.04/itac/2019.4.036/intel64/slib
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+_ModuleTable008_=X1NXL21vZHVsZXMvbGlicy9saWJ4c21tLzRjM2E2OTJfaW50ZWxfMTkuMC40Lmx1YSIsWyJmdWxsTmFtZSJdPSJsaWJzL2xpYnhzbW0vNGMzYTY5Ml9pbnRlbF8xOS4wLjQiLFsibG9hZE9yZGVyIl09MTMscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImxpYnMvbGlieHNtbS80YzNhNjkyX2ludGVsXzE5LjAuNCIsfSxwYzJmcz17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL3BjMmFkbWluL21vZHVsZXMvcGMyZnMiLFsiZnVsbE5hbWUiXT0icGMyZnMiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJd
+LOGNAME=USER
+LMOD_arch=x86_64
+PYTHONPATH=/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843/pythonapi
+SSH_CONNECTION=131.234.142.134 59294 131.234.92.97 22
+XDG_DATA_DIRS=/upb/departments/pc2/users/r/USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+CLASSPATH=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/lib/mpi.jar:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/lib/daal.jar
+MODULESHOME=/usr/share/lmod/lmod
+__LMOD_REF_COUNT_LIBRARY_PATH=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib64:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib:1;/cm/shared/opt/intel/19.04/clck/2019.4.0/lib/intel64:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/lib:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/ipp/lib/intel64:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64/gcc4.7:2;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/lib/intel64_lin:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/../tbb/lib/intel64_lin/gcc4.4:1
+__LMOD_REF_COUNT_LIBXCPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxc/default-skx:1
+LMOD_SETTARG_FULL_SUPPORT=no
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libint/default-skx/lib:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxsmm_4c3a692/lib:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/tools/elpa/elpa-2019.05.001/prefix/lib:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxc/default-skx/lib:1;/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib64:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/lib:1;/cm/shared/opt/intel/19.04/itac/2019.4.036/intel64/slib:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:2;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/lib:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/lib/release:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/intel64/lib:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/ipp/lib/intel64:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64/gcc4.7:2;/cm/shared/opt/intel/19.04/debugger_2019/libipt/intel64/lib:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/lib/intel64_lin:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/daal/../tbb/lib/intel64_lin/gcc4.4:1;/opt/cray/slurm/17.11.8/lib:1;/opt/cray/pe/lib64:1;/opt/cray/pe/lib64/cce:1;/opt/cray/lib64:1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+CONDA_DEFAULT_ENV=root
+PKG_CONFIG_PATH=/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843/include/pkgconfig/lib64:/cm/shared/opt/intel/19.04/vtune_amplifier_2019.4.0.597835/include/pkgconfig/lib64:/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/bin/pkgconfig
+__Init_Default_Modules=1
+LMOD_FULL_SETTARG_SUPPORT=no
+INFOPATH=/cm/shared/opt/intel/19.04/documentation_2019/en/debugger/gdb-ia/info
+XDG_RUNTIME_DIR=/run/user/69652
+CRAY_CPU_TARGET=x86-skylake
+__LMOD_REF_COUNT_PKG_CONFIG_PATH=/cm/shared/opt/intel/19.04/advisor_2019.4.0.597843/include/pkgconfig/lib64:1;/cm/shared/opt/intel/19.04/vtune_amplifier_2019.4.0.597835/include/pkgconfig/lib64:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mkl/bin/pkgconfig:1
+PC2DEPOT=/upb/depot
+LIBXCPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxc/default-skx
+VTUNE_AMPLIFIER_2019_DIR=/cm/shared/opt/intel/19.04/vtune_amplifier_2019.4.0.597835
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+__LMOD_REF_COUNT_MANPATH=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.31.1-GCCcore-8.2.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.2.0/share/man:1;/cm/shared/opt/intel/19.04/itac/2019.4.036/man:1;/cm/shared/opt/intel/19.04/clck/2019.4.0/man:1;/cm/shared/opt/intel/19.04/man/common:1;/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi/man:1;/cm/shared/opt/intel/19.04/documentation_2019/en/debugger/gdb-ia/man:1;/opt/cray/slurm/17.11.8/share/man:2;/usr/share/lmod/lmod/share/man:1;/usr/local/share/man:1;/usr/share/man/overrides:1;/usr/share/man:1;/cm/local/apps/environment-modules/current/share/man:1
+__LMOD_REF_COUNT_ELPAPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/tools/elpa/elpa-2019.05.001/prefix:1
+__LMOD_REF_COUNT_LIBXSMMPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libxsmm_4c3a692:1
+_ModuleTable006_=ZWxfMTkuMC40IixbImxvYWRPcmRlciJdPTEyLHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJsaWJzL2VscGEvMjAxOS4wNS4wMDFfb21wX2ludGVsXzE5LjAuNCIsfSxbImxpYnMvbGliaW50Il09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9DSEVNX1BIWVNfU1cvbW9kdWxlcy9saWJzL2xpYmludC8yLjUuMF9sbWF4XzZfaW50ZWxfMTkuMC40Lmx1YSIsWyJmdWxsTmFtZSJdPSJsaWJzL2xpYmludC8yLjUuMF9sbWF4XzZfaW50ZWxfMTkuMC40IixbImxvYWRPcmRlciJdPTE0LHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2
+LIBINTPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/libraries/libint/default-skx
+LMOD_COLORIZE=0
+I_MPI_ROOT=/cm/shared/opt/intel/19.04/compilers_and_libraries_2019.4.243/linux/mpi
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/usr/bin/env
+LSB Version:	:core-4.1-amd64:core-4.1-noarch
+Distributor ID:	CentOS
+Description:	CentOS Linux release 7.5.1804 (Core) 
+Release:	7.5.1804
+Codename:	Core
+Linux ln-0001 3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                40
+On-line CPU(s) list:   0-39
+Thread(s) per core:    1
+Core(s) per socket:    20
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
+Stepping:              4
+CPU MHz:               3099.937
+CPU max MHz:           3700,0000
+CPU min MHz:           1000,0000
+BogoMIPS:              4800.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              28160K
+NUMA node0 CPU(s):     0-19
+NUMA node1 CPU(s):     20-39
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req
+MemTotal:       196698716 kB
+MemFree:        53974348 kB
+MemAvailable:   173909752 kB
+Buffers:          161212 kB
+Cached:         110457748 kB
+SwapCached:           76 kB
+Active:         58344000 kB
+Inactive:       53008880 kB
+Active(anon):     427760 kB
+Inactive(anon):  2479748 kB
+Active(file):   57916240 kB
+Inactive(file): 50529132 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:      16777212 kB
+SwapFree:       16747136 kB
+Dirty:                56 kB
+Writeback:             0 kB
+AnonPages:        733024 kB
+Mapped:           196300 kB
+Shmem:           2173588 kB
+Slab:           27417448 kB
+SReclaimable:   12929172 kB
+SUnreclaim:     14488276 kB
+KernelStack:       24512 kB
+PageTables:        20496 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    115126568 kB
+Committed_AS:    4905420 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:     1327604 kB
+VmallocChunk:   34257831216 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    247808 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      456252 kB
+DirectMap2M:    46417920 kB
+DirectMap1G:    155189248 kB
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda      8:0    0  1,8T  0 disk 
+├─sda1   8:1    0  100M  0 part /boot/efi
+├─sda2   8:2    0   16G  0 part [SWAP]
+└─sda3   8:3    0  1,8T  0 part /
+sdb      8:16   0  1,8T  0 disk 
+sdc      8:32   0  1,8T  0 disk 
+sdd      8:48   0  1,8T  0 disk 
+[6:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sda   2.00TB
+[7:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdb   2.00TB
+[8:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdc   2.00TB
+[9:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdd   2.00TB
+00:00.0 Host bridge: Intel Corporation Sky Lake-E DMI3 Registers (rev 04)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+00:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+00:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:11.0 Unassigned class [ff00]: Intel Corporation Device a1ec (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation Device a1ed (rev 09)
+00:11.5 SATA controller: Intel Corporation Lewisburg SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation Lewisburg USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation Lewisburg Thermal Subsystem (rev 09)
+00:16.0 Communication controller: Intel Corporation Lewisburg CSME: HECI #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation Lewisburg CSME: HECI #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation Lewisburg CSME: HECI #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation Lewisburg SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #4 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation Lewisburg LPC Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation Lewisburg PMC (rev 09)
+00:1f.4 SMBus: Intel Corporation Lewisburg SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Lewisburg SPI Controller (rev 09)
+01:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+02:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+17:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04)
+17:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+17:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+18:00.0 Fabric controller: Intel Corporation Omni-Path HFI Silicon 100 Series [discrete] (rev 11)
+3a:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04)
+3a:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+3a:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+3a:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3a:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3b:00.0 PCI bridge: Intel Corporation Device 37c0 (rev 09)
+3c:03.0 PCI bridge: Intel Corporation Device 37c5 (rev 09)
+3d:00.0 Ethernet controller: Intel Corporation Ethernet Connection X722 for 10GBASE-T (rev 09)
+3d:00.1 Ethernet controller: Intel Corporation Ethernet Connection X722 for 10GBASE-T (rev 09)
+5d:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port C (rev 04)
+5d:03.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port D (rev 04)
+5d:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+5d:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+5d:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+80:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+80:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+85:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port C (rev 04)
+85:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+85:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+86:00.0 Ethernet controller: Intel Corporation Ethernet Controller X710 for 10GbE SFP+ (rev 01)
+86:00.1 Ethernet controller: Intel Corporation Ethernet Controller X710 for 10GbE SFP+ (rev 01)
+ae:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+ae:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+ae:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+ae:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+d7:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04)
+d7:01.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port B (rev 04)
+d7:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+d7:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+d7:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)

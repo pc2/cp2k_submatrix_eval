@@ -1,0 +1,315 @@
+CCS_ARCH=LINUX64
+MODULE_VERSION_STACK=3.2.10
+CCS_TMPDIR=/tmpdir/ccsscratch/5442195
+EBVERSIONZLIB=1.2.11
+MANPATH=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.32-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/lib/zlib/1.2.11-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/share/man:/cm/local/apps/environment-modules/default/share/man:/cm/shared/apps/ccs/default/man::/usr/local/share/man:/usr/share/man/overrides:/usr/share/man:/cm/local/apps/environment-modules/current/share/man
+CUDA_PATH=/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0
+EBDEVELGCC=/cm/shared/apps/pc2/EB-SW/software/GCC/8.3.0/easybuild/compiler-GCC-8.3.0-easybuild-devel
+HOSTNAME=fe1
+EBVERSIONBINUTILS=2.32
+SHELL=/bin/bash
+TERM=xterm-256color
+HISTSIZE=1000
+CCS_ISLAND=OCULUS
+CCS_NODES=gpu021
+EBROOTGCCCORE=/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0
+SSH_CLIENT=178.203.238.232 35288 22
+TMPDIR=/tmpdir/ccsscratch/5442195
+EBROOTCUDA=/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0
+OPENBLAS_NUM_THREADS=1
+LIBRARY_PATH=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/lib64/stubs:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/lib64:/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.32-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/lib/zlib/1.2.11-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/lib64:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/lib
+OMP_STACKSIZE=1g
+PC2DATA=/upb/departments/pc2/groups
+PC2SCRATCH=/upb/scratch/departments/pc2/groups
+SSH_TTY=/dev/pts/6
+CCS_UI_DEF_ISLAND=OCULUS
+NCPUS=16
+USER=USER
+CCS_UMASK=18
+CCS_REQNAME=gpusign
+CUDA_HOME=/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45
+LD_LIBRARY_PATH=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/nvvm/lib64:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/extras/CUPTI/lib64:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/lib64:/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.32-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/lib/zlib/1.2.11-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/lib64:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/lib:/cm/shared/apps/ccs/default/lib
+EBDEVELZLIB=/cm/shared/apps/pc2/EB-SW/software/lib/zlib/1.2.11-GCCcore-8.3.0/easybuild/lib-zlib-1.2.11-GCCcore-8.3.0-easybuild-devel
+EBDEVELBINUTILS=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.32-GCCcore-8.3.0/easybuild/tools-binutils-2.32-GCCcore-8.3.0-easybuild-devel
+CCS_NODEFILE=/tmpdir/ccsscratch/5442195/CCS_NODE_FILE
+CPATH=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/nvvm/include:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/extras/CUPTI/include:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.32-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/lib/zlib/1.2.11-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/include
+EBROOTOPENBLAS=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0
+PATH=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/nvvm/bin:/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.32-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/bin:/cm/shared/apps/ccs/default/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/3.2.10/bin:/upb/departments/pc2/users/r/USER/bin:.
+MAIL=/var/spool/mail/USER
+MODULE_VERSION=3.2.10
+CCS=/cm/shared/apps/ccs/default
+EBVERSIONOPENBLAS=0.3.7
+_=/usr/bin/env
+PWD=/scratch/pc2-mitarbeiter/USER/submatrix
+PC2SW=/cm/shared/apps/pc2
+_LMFILES_=/cm/shared/modulefiles/dot:/cm/shared/apps/pc2/pc2admin/modules/pc2fs:/cm/shared/apps/pc2/pc2admin/modules/ccs:/cm/shared/apps/pc2/pc2admin/modules/DefaultModules:/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCCcore/8.3.0:/cm/shared/apps/pc2/EB-SW/modules/all/lib/zlib/1.2.11-GCCcore-8.3.0:/cm/shared/apps/pc2/EB-SW/modules/all/tools/binutils/2.32-GCCcore-8.3.0:/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCC/8.3.0:/cm/shared/apps/pc2/EB-SW/modules/all/system/CUDA/10.2.89-GCC-8.3.0:/cm/shared/apps/pc2/EB-SW/modules/all/numlib/OpenBLAS/0.3.7-GCC-8.3.0
+EBDEVELGCCCORE=/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0/easybuild/compiler-GCCcore-8.3.0-easybuild-devel
+LANG=de_DE.UTF-8
+EBDEVELCUDA=/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0/easybuild/system-CUDA-10.2.89-GCC-8.3.0-easybuild-devel
+MODULEPATH=/cm/shared/apps/pc2/EB-SW/modules/all:/cm/shared/apps/pc2/pc2admin/modules:/cm/shared/modulefiles:/cm/shared/apps/pc2/pc2admin/DEPRECATED-MODULES
+LOADEDMODULES=dot:pc2fs:ccs:DefaultModules:compiler/GCCcore/8.3.0:lib/zlib/1.2.11-GCCcore-8.3.0:tools/binutils/2.32-GCCcore-8.3.0:compiler/GCC/8.3.0:system/CUDA/10.2.89-GCC-8.3.0:numlib/OpenBLAS/0.3.7-GCC-8.3.0
+EBROOTGCC=/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/8.3.0
+EBROOTBINUTILS=/cm/shared/apps/pc2/EB-SW/software/tools/binutils/2.32-GCCcore-8.3.0
+EBDEVELOPENBLAS=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/easybuild/numlib-OpenBLAS-0.3.7-GCC-8.3.0-easybuild-devel
+ENABLE_LMOD=0
+EBVERSIONGCC=8.3.0
+HISTCONTROL=ignoredups
+PC2SYSNAME=OCULUS
+PC2PFS=/scratch
+HOME=/upb/departments/pc2/users/r/USER
+SHLVL=3
+EBVERSIONGCCCORE=8.3.0
+EBVERSIONCUDA=10.2.89
+CCS_REQID=5442195
+CCS_MAPPING=gpu021:=1:ompthreads=16:rtx2080=1:vmem=166593984k:mem=65930692k:exclnodes=1:ncpus=16
+OMP_DISPLAY_AFFINITY=TRUE
+LOGNAME=USER
+SSH_CONNECTION=178.203.238.232 35288 131.234.58.15 22
+MODULESHOME=/cm/local/apps/environment-modules/3.2.10/Modules/3.2.10
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+OMP_NUM_THREADS=16
+PKG_CONFIG_PATH=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/lib/zlib/1.2.11-GCCcore-8.3.0/lib/pkgconfig
+CUDA_ROOT=/cm/shared/apps/pc2/EB-SW/software/CUDA/10.2.89-GCC-8.3.0
+EBROOTZLIB=/cm/shared/apps/pc2/EB-SW/software/lib/zlib/1.2.11-GCCcore-8.3.0
+BASH_FUNC_module()=() {  eval `/cm/local/apps/environment-modules/3.2.10/Modules/$MODULE_VERSION/bin/modulecmd bash $*`
+}
+LSB Version:	:core-4.1-amd64:core-4.1-noarch
+Distributor ID:	Scientific
+Description:	Scientific Linux release 7.2 (Nitrogen)
+Release:	7.2
+Codename:	Nitrogen
+Linux gpu021 3.10.0-327.36.1.el7.x86_64 #1 SMP Wed Sep 14 10:11:25 CDT 2016 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    1
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+Stepping:              7
+CPU MHz:               1202.703
+CPU max MHz:           3300,0000
+CPU min MHz:           1200,0000
+BogoMIPS:              5200.06
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-7
+NUMA node1 CPU(s):     8-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb pln pts dtherm tpr_shadow vnmi flexpriority ept vpid xsaveopt
+MemTotal:       65930692 kB
+MemFree:        38498788 kB
+MemAvailable:   63728752 kB
+Buffers:          253500 kB
+Cached:         25524600 kB
+SwapCached:            0 kB
+Active:         17969336 kB
+Inactive:        8311260 kB
+Active(anon):     508328 kB
+Inactive(anon):    12148 kB
+Active(file):   17461008 kB
+Inactive(file):  8299112 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:      100663292 kB
+SwapFree:       100663292 kB
+Dirty:                12 kB
+Writeback:             0 kB
+AnonPages:        502296 kB
+Mapped:            73948 kB
+Shmem:             17468 kB
+Slab:             343524 kB
+SReclaimable:     250324 kB
+SUnreclaim:        93200 kB
+KernelStack:        5664 kB
+PageTables:         4620 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    133628636 kB
+Committed_AS:     414252 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      462328 kB
+VmallocChunk:   34325194204 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    440320 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      748376 kB
+DirectMap2M:    34856960 kB
+DirectMap1G:    33554432 kB
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 465,8G  0 disk 
+├─sda1   8:1    0    20G  0 part /
+├─sda2   8:2    0    20G  0 part /var
+├─sda3   8:3    0    20G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+├─sda5   8:5    0    96G  0 part [SWAP]
+└─sda6   8:6    0 309,8G  0 part /local
+sdb      8:16   1         0 disk 
+sdc      8:32   1         0 disk 
+sr0     11:0    1  1024M  0 rom  
+sr1     11:1    1  1024M  0 rom  
+loop0    7:0    0         1 loop 
+[0:0:0:0]    disk    ATA      Hitachi HUA72205 A3EA  /dev/sda    500GB
+[0:0:1:0]    cd/dvd  TSSTcorp CDDVDW SN-208BB  AS01  /dev/sr0        -
+[7:0:0:0]    cd/dvd  AMI      Virtual CDROM0   1.00  /dev/sr1        -
+[8:0:0:0]    disk    AMI      Virtual Floppy0  1.00  /dev/sdb        -
+[9:0:0:0]    disk    AMI      Virtual HDISK0   1.00  /dev/sdc        -
+Wed Apr 22 17:48:54 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.33.01    Driver Version: 440.33.01    CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 208...  Off  | 00000000:84:00.0 Off |                  N/A |
+| 37%   38C    P0    30W / 250W |      0MiB / 11019MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+00:00.0 Host bridge: Intel Corporation Xeon E5/Core i7 DMI2 (rev 07)
+00:01.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 1a (rev 07)
+00:02.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 2a (rev 07)
+00:03.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode (rev 07)
+00:05.0 System peripheral: Intel Corporation Xeon E5/Core i7 Address Map, VTd_Misc, System Management (rev 07)
+00:05.2 System peripheral: Intel Corporation Xeon E5/Core i7 Control Status and Global Errors (rev 07)
+00:05.4 PIC: Intel Corporation Xeon E5/Core i7 I/O APIC (rev 07)
+00:11.0 PCI bridge: Intel Corporation C600/X79 series chipset PCI Express Virtual Root Port (rev 06)
+00:16.0 Communication controller: Intel Corporation C600/X79 series chipset MEI Controller #1 (rev 05)
+00:16.1 Communication controller: Intel Corporation C600/X79 series chipset MEI Controller #2 (rev 05)
+00:1a.0 USB controller: Intel Corporation C600/X79 series chipset USB2 Enhanced Host Controller #2 (rev 06)
+00:1c.0 PCI bridge: Intel Corporation C600/X79 series chipset PCI Express Root Port 1 (rev b6)
+00:1c.1 PCI bridge: Intel Corporation C600/X79 series chipset PCI Express Root Port 2 (rev b6)
+00:1c.7 PCI bridge: Intel Corporation C600/X79 series chipset PCI Express Root Port 8 (rev b6)
+00:1d.0 USB controller: Intel Corporation C600/X79 series chipset USB2 Enhanced Host Controller #1 (rev 06)
+00:1e.0 PCI bridge: Intel Corporation 82801 PCI Bridge (rev a6)
+00:1f.0 ISA bridge: Intel Corporation C600/X79 series chipset LPC Controller (rev 06)
+00:1f.2 SATA controller: Intel Corporation C600/X79 series chipset 6-Port SATA AHCI Controller (rev 06)
+00:1f.3 SMBus: Intel Corporation C600/X79 series chipset SMBus Host Controller (rev 06)
+04:00.0 Serial Attached SCSI controller: Intel Corporation C602 chipset 4-Port SATA Storage Control Unit (rev 06)
+05:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection
+06:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection
+07:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 02)
+08:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 21)
+7f:08.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 0 (rev 07)
+7f:08.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+7f:08.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+7f:09.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 1 (rev 07)
+7f:09.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+7f:09.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+7f:0a.0 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 0 (rev 07)
+7f:0a.1 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 1 (rev 07)
+7f:0a.2 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 2 (rev 07)
+7f:0a.3 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 3 (rev 07)
+7f:0b.0 System peripheral: Intel Corporation Xeon E5/Core i7 Interrupt Control Registers (rev 07)
+7f:0b.3 System peripheral: Intel Corporation Xeon E5/Core i7 Semaphore and Scratchpad Configuration Registers (rev 07)
+7f:0c.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0c.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0c.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0c.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0c.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 0 (rev 07)
+7f:0c.7 System peripheral: Intel Corporation Xeon E5/Core i7 System Address Decoder (rev 07)
+7f:0d.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0d.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0d.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0d.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+7f:0d.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 1 (rev 07)
+7f:0e.0 System peripheral: Intel Corporation Xeon E5/Core i7 Processor Home Agent (rev 07)
+7f:0e.1 Performance counters: Intel Corporation Xeon E5/Core i7 Processor Home Agent Performance Monitoring (rev 07)
+7f:0f.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Registers (rev 07)
+7f:0f.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller RAS Registers (rev 07)
+7f:0f.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 0 (rev 07)
+7f:0f.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 1 (rev 07)
+7f:0f.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 2 (rev 07)
+7f:0f.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 3 (rev 07)
+7f:0f.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 4 (rev 07)
+7f:10.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 0 (rev 07)
+7f:10.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 1 (rev 07)
+7f:10.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 0 (rev 07)
+7f:10.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 1 (rev 07)
+7f:10.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 2 (rev 07)
+7f:10.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 3 (rev 07)
+7f:10.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 2 (rev 07)
+7f:10.7 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 3 (rev 07)
+7f:11.0 System peripheral: Intel Corporation Xeon E5/Core i7 DDRIO (rev 07)
+7f:13.0 System peripheral: Intel Corporation Xeon E5/Core i7 R2PCIe (rev 07)
+7f:13.1 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to PCI Express Performance Monitor (rev 07)
+7f:13.4 Performance counters: Intel Corporation Xeon E5/Core i7 QuickPath Interconnect Agent Ring Registers (rev 07)
+7f:13.5 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 0 Performance Monitor (rev 07)
+7f:13.6 System peripheral: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 1 Performance Monitor (rev 07)
+80:00.0 PCI bridge: Intel Corporation Xeon E5/Core i7 DMI2 in PCI Express Mode (rev 07)
+80:01.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 1a (rev 07)
+80:02.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 2a (rev 07)
+80:03.0 PCI bridge: Intel Corporation Xeon E5/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode (rev 07)
+80:05.0 System peripheral: Intel Corporation Xeon E5/Core i7 Address Map, VTd_Misc, System Management (rev 07)
+80:05.2 System peripheral: Intel Corporation Xeon E5/Core i7 Control Status and Global Errors (rev 07)
+80:05.4 PIC: Intel Corporation Xeon E5/Core i7 I/O APIC (rev 07)
+82:00.0 Network controller: Mellanox Technologies MT27500 Family [ConnectX-3]
+84:00.0 VGA compatible controller: NVIDIA Corporation Device 1e07 (rev a1)
+84:00.1 Audio device: NVIDIA Corporation Device 10f7 (rev a1)
+84:00.2 USB controller: NVIDIA Corporation Device 1ad6 (rev a1)
+84:00.3 Serial bus controller [0c80]: NVIDIA Corporation Device 1ad7 (rev a1)
+ff:08.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 0 (rev 07)
+ff:08.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+ff:08.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 0 (rev 07)
+ff:09.0 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link 1 (rev 07)
+ff:09.3 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+ff:09.4 System peripheral: Intel Corporation Xeon E5/Core i7 QPI Link Reut 1 (rev 07)
+ff:0a.0 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 0 (rev 07)
+ff:0a.1 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 1 (rev 07)
+ff:0a.2 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 2 (rev 07)
+ff:0a.3 System peripheral: Intel Corporation Xeon E5/Core i7 Power Control Unit 3 (rev 07)
+ff:0b.0 System peripheral: Intel Corporation Xeon E5/Core i7 Interrupt Control Registers (rev 07)
+ff:0b.3 System peripheral: Intel Corporation Xeon E5/Core i7 Semaphore and Scratchpad Configuration Registers (rev 07)
+ff:0c.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0c.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0c.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0c.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0c.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 0 (rev 07)
+ff:0c.7 System peripheral: Intel Corporation Xeon E5/Core i7 System Address Decoder (rev 07)
+ff:0d.0 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0d.1 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0d.2 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0d.3 System peripheral: Intel Corporation Xeon E5/Core i7 Unicast Register 0 (rev 07)
+ff:0d.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 1 (rev 07)
+ff:0e.0 System peripheral: Intel Corporation Xeon E5/Core i7 Processor Home Agent (rev 07)
+ff:0e.1 Performance counters: Intel Corporation Xeon E5/Core i7 Processor Home Agent Performance Monitoring (rev 07)
+ff:0f.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Registers (rev 07)
+ff:0f.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller RAS Registers (rev 07)
+ff:0f.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 0 (rev 07)
+ff:0f.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 1 (rev 07)
+ff:0f.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 2 (rev 07)
+ff:0f.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 3 (rev 07)
+ff:0f.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Target Address Decoder 4 (rev 07)
+ff:10.0 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 0 (rev 07)
+ff:10.1 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 1 (rev 07)
+ff:10.2 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 0 (rev 07)
+ff:10.3 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 1 (rev 07)
+ff:10.4 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 2 (rev 07)
+ff:10.5 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller Channel 0-3 Thermal Control 3 (rev 07)
+ff:10.6 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 2 (rev 07)
+ff:10.7 System peripheral: Intel Corporation Xeon E5/Core i7 Integrated Memory Controller ERROR Registers 3 (rev 07)
+ff:11.0 System peripheral: Intel Corporation Xeon E5/Core i7 DDRIO (rev 07)
+ff:13.0 System peripheral: Intel Corporation Xeon E5/Core i7 R2PCIe (rev 07)
+ff:13.1 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to PCI Express Performance Monitor (rev 07)
+ff:13.4 Performance counters: Intel Corporation Xeon E5/Core i7 QuickPath Interconnect Agent Ring Registers (rev 07)
+ff:13.5 Performance counters: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 0 Performance Monitor (rev 07)
+ff:13.6 System peripheral: Intel Corporation Xeon E5/Core i7 Ring to QuickPath Interconnect Link 1 Performance Monitor (rev 07)

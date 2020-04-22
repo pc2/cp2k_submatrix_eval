@@ -1,0 +1,56 @@
+dim=3976
+Tinit context=1.224047
+Tinit convert1=0.000000
+Tinit convert=1.242561
+Tinit copy=1.313549
+Tinit=1.313565
+Start Iteration!
+Iteration = 0, convergence = 8.556852, 73.219708
+titer=0.860566 GFLOPS=377.129389 GFLOPS/s=438.234226 
+Tcopy=0.056902
+Tend convert naiv=0.007070
+t dealloc=0.008514
+t destroy handle=0.011090
+Tend=0.075084
+total T=2.249237 GFLOPS=377.129389 GFLOPS/s=167.669955 
+dim=3976
+Tinit context=0.003921
+Tinit convert1=0.000000
+Tinit convert=0.012294
+Tinit copy=0.075058
+Tinit=0.075073
+Start Iteration!
+Iteration = 0, convergence = 8.556852, 73.219708
+titer=0.784819 GFLOPS=377.129389 GFLOPS/s=480.530434 
+Iteration = 1, convergence = 2.762820, 7.633173
+titer=0.784991 GFLOPS=377.129389 GFLOPS/s=480.425285 
+Iteration = 2, convergence = 0.987837, 0.975821
+titer=0.784610 GFLOPS=377.129389 GFLOPS/s=480.658379 
+Iteration = 3, convergence = 0.235477, 0.055449
+titer=0.790197 GFLOPS=377.129389 GFLOPS/s=477.259662 
+Iteration = 4, convergence = 0.030236, 0.000914
+titer=0.790939 GFLOPS=377.129389 GFLOPS/s=476.812218 
+Iteration = 5, convergence = 0.001232, 0.000002
+titer=0.791022 GFLOPS=377.129389 GFLOPS/s=476.762049 
+Iteration = 6, convergence = 0.000001, 0.000000
+titer=0.790965 GFLOPS=377.129389 GFLOPS/s=476.796740 
+Iteration = 7, convergence = 0.000000, 0.000000
+titer=0.791713 GFLOPS=377.129389 GFLOPS/s=476.346241 
+Iteration = 8, convergence = 0.000000, 0.000000
+titer=0.791729 GFLOPS=377.129389 GFLOPS/s=476.336720 
+Iteration = 9, convergence = 0.000000, 0.000000
+titer=0.791728 GFLOPS=377.129389 GFLOPS/s=476.336989 
+Iteration = 10, convergence = 0.000000, 0.000000
+titer=0.791733 GFLOPS=377.129389 GFLOPS/s=476.334014 
+Tcopy=0.056428
+Tend convert naiv=0.006426
+t dealloc=0.007084
+t destroy handle=0.008596
+Tend=0.071483
+total T=8.831047 GFLOPS=4148.423280 GFLOPS/s=469.754423 
+ Matrix size=        3972
+ Block size=         192
+ convergence crit=   0.0000000000000000     
+ padded size        3976
+ E=           1  -74.249194445722438     
+ INV=           1   1.9173216147602971E-013   1.3821008558265033E-014

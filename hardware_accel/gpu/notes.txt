@@ -1,0 +1,14 @@
+Evaluate sign iteration on GPUs and FPGAs:
+
+* Settings: 
+  * symmetric orthogonalization
+  * H2O-dft-ls.inp: 864 water molecules (NREP=3), DZVP, total dimension=19872, mu=0.14
+* Software versions:
+  * CUDA 10.2
+  * GCC 8.3.0
+* Steps to reproduce:
+  1. Build submatrix for first block-column of matrix_ssqrtinv_ks_ssqrtinv 
+  2. export binary to ksmat.bin 
+  3. run make_test_interface.sh to generate GPU routines for half, single and double as well as mixed half-single
+  4. run job.sh on host with RTX 2080 TI
+  5. run analyse.sh

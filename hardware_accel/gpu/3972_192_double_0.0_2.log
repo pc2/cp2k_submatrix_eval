@@ -1,0 +1,38 @@
+dim=3976
+Tinit context=1.184935
+Tinit convert1=0.000000
+Tinit convert=1.203739
+Tinit copy=1.244928
+Tinit=1.244942
+Start Iteration!
+Iteration = 0, convergence = 8.556852, 73.219708
+titer=0.812523 GFLOPS=377.129389 GFLOPS/s=464.145902 
+Tcopy=0.053875
+Tend convert naiv=0.007193
+t dealloc=0.006088
+t destroy handle=0.008484
+Tend=0.069594
+total T=2.127086 GFLOPS=377.129389 GFLOPS/s=177.298608 
+dim=3976
+Tinit context=0.003371
+Tinit convert1=0.000000
+Tinit convert=0.011620
+Tinit copy=0.050198
+Tinit=0.050213
+Start Iteration!
+Iteration = 0, convergence = 8.556852, 73.219708
+titer=0.775691 GFLOPS=377.129389 GFLOPS/s=486.184960 
+Iteration = 1, convergence = 2.762820, 7.633173
+titer=0.778417 GFLOPS=377.129389 GFLOPS/s=484.482583 
+Tcopy=0.056566
+Tend convert naiv=0.009205
+t dealloc=0.006467
+t destroy handle=0.008068
+Tend=0.073883
+total T=1.678217 GFLOPS=754.258778 GFLOPS/s=449.440670 
+ Matrix size=        3972
+ Block size=         192
+ convergence crit=   0.0000000000000000     
+ padded size        3976
+ E=           1  -62.433097459299439     
+ INV=           1   34.432870131355628        1.3755000617947353     

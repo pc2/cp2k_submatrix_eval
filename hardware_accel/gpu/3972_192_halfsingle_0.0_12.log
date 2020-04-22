@@ -1,0 +1,58 @@
+dim=3976
+Tinit context=1.176437
+Tinit convert1=0.000013
+Tinit convert=1.197534
+Tinit copy=1.207208
+Tinit=1.207222
+Start Iteration!
+Iteration = 0, convergence = 8.558992, 73.256344
+titer=0.010013 GFLOPS=377.129389 GFLOPS/s=37664.224057 
+Tcopy=0.012682
+Tend convert naiv=0.014508
+t dealloc=0.003711
+t destroy handle=0.004607
+Tend=0.031834
+total T=1.249097 GFLOPS=377.129389 GFLOPS/s=301.921631 
+dim=3976
+Tinit context=0.001337
+Tinit convert1=0.000001
+Tinit convert=0.012357
+Tinit copy=0.021880
+Tinit=0.021895
+Start Iteration!
+Iteration = 0, convergence = 8.558992, 73.256344
+titer=0.010091 GFLOPS=377.129389 GFLOPS/s=37371.171898 
+Iteration = 1, convergence = 2.762887, 7.633542
+titer=0.010002 GFLOPS=377.129389 GFLOPS/s=37706.675740 
+Iteration = 2, convergence = 0.988341, 0.976818
+titer=0.010002 GFLOPS=377.129389 GFLOPS/s=37703.780601 
+Iteration = 3, convergence = 0.235465, 0.055444
+titer=0.010005 GFLOPS=377.129389 GFLOPS/s=37695.252246 
+Iteration = 4, convergence = 0.030218, 0.000913
+titer=0.010006 GFLOPS=377.129389 GFLOPS/s=37691.187511 
+Iteration = 5, convergence = 0.001306, 0.000002
+titer=0.009945 GFLOPS=377.129389 GFLOPS/s=37922.864494 
+Iteration = 6, convergence = 0.000422, 0.000000
+titer=0.009869 GFLOPS=377.129389 GFLOPS/s=38214.121107 
+Iteration = 7, convergence = 0.000358, 0.000000
+titer=0.009885 GFLOPS=377.129389 GFLOPS/s=38151.463301 
+Iteration = 8, convergence = 0.000332, 0.000000
+titer=0.009874 GFLOPS=377.129389 GFLOPS/s=38192.642558 
+Iteration = 9, convergence = 0.000314, 0.000000
+titer=0.009881 GFLOPS=377.129389 GFLOPS/s=38168.135790 
+Iteration = 10, convergence = 0.000296, 0.000000
+titer=0.009883 GFLOPS=377.129389 GFLOPS/s=38161.098853 
+Iteration = 11, convergence = 0.000285, 0.000000
+titer=0.008830 GFLOPS=377.129389 GFLOPS/s=42711.722205 
+Tcopy=0.011373
+Tend convert naiv=0.019428
+t dealloc=0.002563
+t destroy handle=0.003513
+Tend=0.034355
+total T=0.174571 GFLOPS=4525.552669 GFLOPS/s=25923.783263 
+ Matrix size=        3972
+ Block size=         192
+ convergence crit=   0.0000000000000000     
+ padded size        3976
+ E=           1  -74.251168139022298     
+ INV=           1   1.8942962882628447E-002   2.2114429868835828E-003

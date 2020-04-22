@@ -1,0 +1,66 @@
+dim=3976
+Tinit context=1.090613
+Tinit convert1=0.000001
+Tinit convert=1.106919
+Tinit copy=1.141579
+Tinit=1.141591
+Start Iteration!
+Iteration = 0, convergence = 8.556854, 73.219742
+titer=0.035514 GFLOPS=377.129389 GFLOPS/s=10619.156086 
+Tcopy=0.029034
+Tend convert naiv=0.010260
+t dealloc=0.005220
+t destroy handle=0.006865
+Tend=0.046188
+total T=1.223328 GFLOPS=377.129389 GFLOPS/s=308.281437 
+dim=3976
+Tinit context=0.002261
+Tinit convert1=0.000000
+Tinit convert=0.009492
+Tinit copy=0.041335
+Tinit=0.041346
+Start Iteration!
+Iteration = 0, convergence = 8.556854, 73.219742
+titer=0.035103 GFLOPS=377.129389 GFLOPS/s=10743.566617 
+Iteration = 1, convergence = 2.762820, 7.633176
+titer=0.035036 GFLOPS=377.129389 GFLOPS/s=10764.048273 
+Iteration = 2, convergence = 0.987837, 0.975821
+titer=0.031464 GFLOPS=377.129389 GFLOPS/s=11986.144084 
+Iteration = 3, convergence = 0.235477, 0.055449
+titer=0.031097 GFLOPS=377.129389 GFLOPS/s=12127.581514 
+Iteration = 4, convergence = 0.030236, 0.000914
+titer=0.031427 GFLOPS=377.129389 GFLOPS/s=12000.188256 
+Iteration = 5, convergence = 0.001232, 0.000002
+titer=0.031449 GFLOPS=377.129389 GFLOPS/s=11991.851923 
+Iteration = 6, convergence = 0.000001, 0.000000
+titer=0.031346 GFLOPS=377.129389 GFLOPS/s=12031.228282 
+Iteration = 7, convergence = 0.000000, 0.000000
+titer=0.030738 GFLOPS=377.129389 GFLOPS/s=12269.097676 
+Iteration = 8, convergence = 0.000000, 0.000000
+titer=0.031654 GFLOPS=377.129389 GFLOPS/s=11914.188938 
+Iteration = 9, convergence = 0.000000, 0.000000
+titer=0.031740 GFLOPS=377.129389 GFLOPS/s=11881.748365 
+Iteration = 10, convergence = 0.000000, 0.000000
+titer=0.031659 GFLOPS=377.129389 GFLOPS/s=11912.265480 
+Iteration = 11, convergence = 0.000000, 0.000000
+titer=0.031428 GFLOPS=377.129389 GFLOPS/s=11999.828602 
+Iteration = 12, convergence = 0.000000, 0.000000
+titer=0.031433 GFLOPS=377.129389 GFLOPS/s=11997.927785 
+Iteration = 13, convergence = 0.000000, 0.000000
+titer=0.031439 GFLOPS=377.129389 GFLOPS/s=11995.655195 
+Iteration = 14, convergence = 0.000000, 0.000000
+titer=0.031591 GFLOPS=377.129389 GFLOPS/s=11937.881170 
+Iteration = 15, convergence = 0.000000, 0.000000
+titer=0.031453 GFLOPS=377.129389 GFLOPS/s=11990.244928 
+Tcopy=0.024414
+Tend convert naiv=0.004252
+t dealloc=0.004977
+t destroy handle=0.006330
+Tend=0.035017
+total T=0.586483 GFLOPS=6034.070225 GFLOPS/s=10288.566665 
+ Matrix size=        3972
+ Block size=         192
+ convergence crit=   0.0000000000000000     
+ padded size        3976
+ E=           1  -74.249219260774936     
+ INV=           1   3.0464185974726425E-005   2.5842002591976072E-006

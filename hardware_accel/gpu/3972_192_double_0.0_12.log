@@ -1,0 +1,58 @@
+dim=3976
+Tinit context=1.300415
+Tinit convert1=0.000000
+Tinit convert=1.320433
+Tinit copy=1.388838
+Tinit=1.388853
+Start Iteration!
+Iteration = 0, convergence = 8.556852, 73.219708
+titer=0.858810 GFLOPS=377.129389 GFLOPS/s=439.130370 
+Tcopy=0.057295
+Tend convert naiv=0.010138
+t dealloc=0.005491
+t destroy handle=0.006926
+Tend=0.074390
+total T=2.322077 GFLOPS=377.129389 GFLOPS/s=162.410399 
+dim=3976
+Tinit context=0.004350
+Tinit convert1=0.000000
+Tinit convert=0.013391
+Tinit copy=0.076397
+Tinit=0.076412
+Start Iteration!
+Iteration = 0, convergence = 8.556852, 73.219708
+titer=0.785835 GFLOPS=377.129389 GFLOPS/s=479.909268 
+Iteration = 1, convergence = 2.762820, 7.633173
+titer=0.785601 GFLOPS=377.129389 GFLOPS/s=480.051806 
+Iteration = 2, convergence = 0.987837, 0.975821
+titer=0.784609 GFLOPS=377.129389 GFLOPS/s=480.659299 
+Iteration = 3, convergence = 0.235477, 0.055449
+titer=0.788695 GFLOPS=377.129389 GFLOPS/s=478.168796 
+Iteration = 4, convergence = 0.030236, 0.000914
+titer=0.790966 GFLOPS=377.129389 GFLOPS/s=476.796040 
+Iteration = 5, convergence = 0.001232, 0.000002
+titer=0.790948 GFLOPS=377.129389 GFLOPS/s=476.806752 
+Iteration = 6, convergence = 0.000001, 0.000000
+titer=0.790934 GFLOPS=377.129389 GFLOPS/s=476.815030 
+Iteration = 7, convergence = 0.000000, 0.000000
+titer=0.791824 GFLOPS=377.129389 GFLOPS/s=476.279385 
+Iteration = 8, convergence = 0.000000, 0.000000
+titer=0.791842 GFLOPS=377.129389 GFLOPS/s=476.268421 
+Iteration = 9, convergence = 0.000000, 0.000000
+titer=0.791719 GFLOPS=377.129389 GFLOPS/s=476.342532 
+Iteration = 10, convergence = 0.000000, 0.000000
+titer=0.791701 GFLOPS=377.129389 GFLOPS/s=476.353116 
+Iteration = 11, convergence = 0.000000, 0.000000
+titer=0.791727 GFLOPS=377.129389 GFLOPS/s=476.337658 
+Tcopy=0.047452
+Tend convert naiv=0.014450
+t dealloc=0.006582
+t destroy handle=0.008078
+Tend=0.070004
+total T=9.622884 GFLOPS=4525.552669 GFLOPS/s=470.290689 
+ Matrix size=        3972
+ Block size=         192
+ convergence crit=   0.0000000000000000     
+ padded size        3976
+ E=           1  -74.249194445722438     
+ INV=           1   1.9152240424321175E-013   1.4699309084241334E-014
