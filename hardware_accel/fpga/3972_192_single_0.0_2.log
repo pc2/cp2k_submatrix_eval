@@ -1,0 +1,509 @@
+ Matrix size=        3972
+ Block size=         192
+ convergence crit=  0.000000000000000E+000
+ padded size        3976
+Allocated memory for host-side matrices!
+
+===== Host-CPU checking the systolic array matrix multiplication parameters ======
+
+HA: 		2048
+WA: 		2048
+
+HB: 		2048
+WB: 		2048
+
+HC: 		2048
+WC: 		2048
+
+PE_ROWS: 		16
+PE_COLS: 		16
+DOT_PROD_VECTOR_SIZE: 		8
+
+ACCUM_SHIFT_REG_SIZE: 		1024
+
+ROWS_INTERLEAVED: 		32
+COLUMNS_INTERLEAVED: 		32
+
+MAT_A_BLOCK_HEIGHT: 		512
+MAT_A_BLOCK_WIDTH: 		128
+MAT_A_BLOCK_SIZE: 		65536
+MAT_A_BLOCK_NUM_VECTORS: 		8192
+MAT_A_NUM_BLOCKS_IN_ROW: 		16
+MAT_A_NUM_BLOCKS_IN_COL: 		4
+MAT_A_NUM_VECTORS_IN_ROW_OF_BLOCKS: 		131072
+
+MAT_B_BLOCK_HEIGHT: 		128
+MAT_B_BLOCK_WIDTH: 		512
+MAT_B_BLOCK_SIZE: 		65536
+MAT_B_BLOCK_NUM_VECTORS: 		8192
+MAT_B_NUM_BLOCKS_IN_ROW: 		4
+MAT_B_NUM_BLOCKS_IN_COL: 		16
+MAT_B_NUM_VECTORS_IN_COL_OF_BLOCKS: 		131072
+MAT_B_NUM_VECTORS_IN_MATRIX: 		524288
+
+MAT_C_BLOCK_HEIGHT: 		512
+MAT_C_BLOCK_WIDTH: 		512
+Initializing IDs
+Intel(R) Corporation
+
+Device Name: p520_hpc_sg280l : BittWare Stratix 10 OpenCL platform (aclbitt_s10_pcie0)
+Device Vendor: BittWare ltd
+Device Computing Units: 1
+Global Memory Size: 34359737344
+Global Memory Allocation Size: 34359737344
+
+
+Device Name: p520_hpc_sg280l : BittWare Stratix 10 OpenCL platform (aclbitt_s10_pcie1)
+Device Vendor: BittWare ltd
+Device Computing Units: 1
+Global Memory Size: 34359737344
+Global Memory Allocation Size: 34359737344
+
+
+===== Host-CPU setting up the OpenCL command queues ======
+
+
+===== Host-CPU setting up OpenCL program and kernels ======
+
+
+AOCX file: bin/matrix_mult.aocx
+
+Creating kernel[0]: loadA1
+Creating kernel[1]: loadB1
+Creating kernel[2]: store1
+Creating kernel[3]: loadA2
+Creating kernel[4]: loadB2
+Creating kernel[5]: store2
+cmdQueue i = 0, kernel name = loadA1
+cmdQueue i = 1, kernel name = loadB1
+cmdQueue i = 2, kernel name = store1
+cmdQueue i = 3, kernel name = loadA2
+cmdQueue i = 4, kernel name = loadB2
+cmdQueue i = 5, kernel name = store2
+cmdQueue i = 6, a queue for reading the C buffer
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000038 seconds 
+transfer rate 6131.818071
+first pciewrite took 0.016103 seconds 
+creating device buffer C 1
+creating device buffer C 2
+transfer rate 4562.584723
+T 0 0.000820 0.000820 0.000913 0.005476 0.005476 0.005477 0.011624 1587068100.080468
+creating device buffer C 5
+creating device buffer C 6
+transfer rate 5926.288039
+transfer rate 5130.412961
+transfer rate 5073.083713
+T 2 0.000831 0.000831 0.000902 0.015454 0.015454 0.015455 0.015498 1587068100.092931
+transfer rate 5148.053565
+T 4 0.000008 0.000008 0.000088 0.004245 0.010055 0.020282 0.020323 1587068100.107610
+creating device buffer C 7
+T 6 0.000285 0.000286 0.000369 0.000376 0.011345 0.016196 0.016233 1587068100.128221
+final pcieread took 0.006747 seconds 
+total took 0.087815 seconds 
+total GFLOPS without init, windup and winddown=2115.584283 0.064965 
+ TFlops_sgemm_fpga=  0.151024560710386       0.150553914511919     
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000033 seconds 
+transfer rate 16997.281202
+first pciewrite took 0.010024 seconds 
+transfer rate 5864.062015
+T 0 0.000010 0.000010 0.000099 0.003874 0.003874 0.003875 0.010766 1587068100.166085
+transfer rate 5911.849465
+transfer rate 5890.569578
+transfer rate 5853.817834
+T 2 0.000004 0.000005 0.000076 0.013559 0.013559 0.013560 0.013607 1587068100.176851
+transfer rate 5917.815506
+T 4 0.000008 0.000008 0.000090 0.003830 0.006917 0.010990 0.011028 1587068100.190466
+T 6 0.000007 0.000007 0.000077 0.000084 0.010328 0.014281 0.014327 1587068100.201500
+final pcieread took 0.006789 seconds 
+total took 0.066603 seconds 
+total GFLOPS without init, windup and winddown=2760.364653 0.049790 
+ TFlops_sgemm_fpga=   1.88391722677597        1.83464199558230     
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000040 seconds 
+transfer rate 15251.136579
+first pciewrite took 0.010019 seconds 
+transfer rate 5905.399813
+T 0 0.000009 0.000009 0.000096 0.003843 0.003843 0.003844 0.010770 1587068100.234627
+transfer rate 5934.784868
+transfer rate 5913.836808
+transfer rate 5849.438419
+T 2 0.000006 0.000006 0.000071 0.013485 0.013485 0.013487 0.013530 1587068100.245398
+transfer rate 5909.367163
+T 4 0.000007 0.000007 0.000090 0.003827 0.006915 0.010991 0.011032 1587068100.258934
+T 6 0.000007 0.000007 0.000077 0.000082 0.010277 0.014211 0.014255 1587068100.269973
+final pcieread took 0.006745 seconds 
+total took 0.066407 seconds 
+total GFLOPS without init, windup and winddown=2768.544277 0.049643 
+ TFlops_sgemm_fpga=   1.89125582130836        1.84126016349426     
+ iter           1   6.82142543792725        58.3699302673340     
+ TFlops_sign=  0.386427200235291     
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000038 seconds 
+transfer rate 16895.256705
+first pciewrite took 0.009859 seconds 
+transfer rate 5907.382822
+T 0 0.000011 0.000011 0.000103 0.003858 0.003858 0.003859 0.010772 1587068100.354941
+transfer rate 5903.418136
+transfer rate 5868.463362
+transfer rate 5805.044067
+T 2 0.000006 0.000006 0.000073 0.013591 0.013591 0.013592 0.013638 1587068100.365712
+transfer rate 5888.597839
+T 4 0.000008 0.000008 0.000087 0.003837 0.006934 0.011011 0.011058 1587068100.379357
+T 6 0.000006 0.000006 0.000077 0.000086 0.010358 0.014282 0.014321 1587068100.390420
+final pcieread took 0.006749 seconds 
+total took 0.066453 seconds 
+total GFLOPS without init, windup and winddown=2757.327876 0.049845 
+ TFlops_sgemm_fpga=   1.88841092105389        1.83834562933730     
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000038 seconds 
+transfer rate 16794.449684
+first pciewrite took 0.009897 seconds 
+transfer rate 5898.964220
+T 0 0.000010 0.000010 0.000101 0.003844 0.003844 0.003845 0.010791 1587068100.425751
+transfer rate 5936.787664
+transfer rate 5917.815506
+transfer rate 5900.942908
+T 2 0.000005 0.000005 0.000072 0.013415 0.013416 0.013417 0.013453 1587068100.436541
+transfer rate 5903.418136
+T 4 0.000008 0.000008 0.000081 0.003802 0.006910 0.011001 0.011038 1587068100.450001
+T 6 0.000005 0.000005 0.000080 0.000087 0.010292 0.014225 0.014262 1587068100.461043
+final pcieread took 0.006745 seconds 
+total took 0.066244 seconds 
+total GFLOPS without init, windup and winddown=2770.833144 0.049602 
+ TFlops_sgemm_fpga=   1.89596187572907        1.84628268475737     
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000041 seconds 
+transfer rate 15307.536258
+first pciewrite took 0.009988 seconds 
+transfer rate 5901.437787
+T 0 0.000009 0.000009 0.000097 0.003849 0.003849 0.003850 0.010778 1587068100.493950
+transfer rate 5934.284380
+transfer rate 5905.399813
+transfer rate 5841.668950
+T 2 0.000004 0.000004 0.000072 0.013436 0.013436 0.013438 0.013478 1587068100.504727
+transfer rate 5900.942908
+T 4 0.000007 0.000007 0.000079 0.003856 0.006923 0.012910 0.012950 1587068100.518213
+T 6 0.000007 0.000007 0.000082 0.000087 0.012099 0.016030 0.016074 1587068100.531170
+final pcieread took 0.006745 seconds 
+total took 0.070071 seconds 
+total GFLOPS without init, windup and winddown=2576.752455 0.053338 
+ TFlops_sgemm_fpga=   1.79106717601509        1.74633305957526     
+ iter           1   6.82142543792725        58.3699302673340     
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000042 seconds 
+transfer rate 15637.498706
+first pciewrite took 0.009896 seconds 
+transfer rate 5903.418136
+T 0 0.000010 0.000010 0.000100 0.003852 0.003852 0.003852 0.010792 1587068100.567255
+transfer rate 5909.863457
+transfer rate 5846.036735
+transfer rate 5783.573944
+T 2 0.000005 0.000005 0.000073 0.013648 0.013648 0.013650 0.013689 1587068100.578046
+transfer rate 5900.942908
+T 4 0.000008 0.000008 0.000083 0.003886 0.006956 0.013089 0.013130 1587068100.591743
+T 6 0.000007 0.000007 0.000081 0.000087 0.012134 0.016072 0.016108 1587068100.604878
+final pcieread took 0.006779 seconds 
+total took 0.070454 seconds 
+total GFLOPS without init, windup and winddown=2555.630316 0.053779 
+ TFlops_sgemm_fpga=   1.78268621455313        1.73774010176778     
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000038 seconds 
+transfer rate 16338.227113
+first pciewrite took 0.009961 seconds 
+transfer rate 5905.399813
+T 0 0.000010 0.000010 0.000104 0.003850 0.003850 0.003851 0.010787 1587068100.641199
+transfer rate 5934.284380
+transfer rate 5900.942908
+transfer rate 5862.107979
+T 2 0.000005 0.000005 0.000072 0.013513 0.013513 0.013514 0.013561 1587068100.651985
+transfer rate 5905.399813
+T 4 0.000008 0.000008 0.000088 0.003832 0.006950 0.011040 0.011085 1587068100.665553
+T 6 0.000007 0.000007 0.000077 0.000082 0.010302 0.014233 0.014269 1587068100.676644
+final pcieread took 0.006744 seconds 
+total took 0.066461 seconds 
+total GFLOPS without init, windup and winddown=2762.256111 0.049756 
+ TFlops_sgemm_fpga=   1.88821480331750        1.83899321860244     
+chunkcounts of A: 2 x 2
+chunkcounts of B: 2 x 2
+chunkcounts of C: 2 x 2
+padded size of A: 4096 x 4096
+padded size of B: 4096 x 4096
+padded size of C: 4096 x 4096
+block 1 (0,0) of A is the chunk A(0:2047,0:2047)
+block 2 (0,1) of A is the chunk A(0:2047,2048:3975)
+block 3 (1,0) of A is the chunk A(2048:3975,0:2047)
+block 4 (1,1) of A is the chunk A(2048:3975,2048:3975)
+Blocks for A=4
+block 1 (0,0) of B is the chunk B(0:2047,0:2047)
+block 2 (0,1) of B is the chunk B(0:2047,2048:3975)
+block 3 (1,0) of B is the chunk B(2048:3975,0:2047)
+block 4 (1,1) of B is the chunk B(2048:3975,2048:3975)
+Blocks for B=4
+for block 0,0 of C we need:
+A 0,0 (0) times B 0,0 (0) --> C 0 
+A 0,1 (1) times B 1,0 (2) --> C 1 
+for block 0,1 of C we need:
+A 0,0 (0) times B 0,1 (1) --> C 2 
+A 0,1 (1) times B 1,1 (3) --> C 3 
+for block 1,0 of C we need:
+A 1,0 (2) times B 0,0 (0) --> C 4 
+A 1,1 (3) times B 1,0 (2) --> C 5 
+for block 1,1 of C we need:
+A 1,0 (2) times B 0,1 (1) --> C 6 
+A 1,1 (3) times B 1,1 (3) --> C 7 
+Blocks for C=8
+8 mults in total.
+init took 0.000041 seconds 
+transfer rate 15294.228250
+first pciewrite took 0.009982 seconds 
+transfer rate 5902.922924
+T 0 0.000009 0.000009 0.000102 0.003852 0.003852 0.003852 0.010789 1587068100.709600
+transfer rate 5930.283514
+transfer rate 5911.352838
+transfer rate 5831.502791
+T 2 0.000005 0.000005 0.000072 0.013514 0.013514 0.013515 0.013556 1587068100.720389
+transfer rate 5889.090650
+T 4 0.000007 0.000007 0.000088 0.003834 0.006927 0.010992 0.011034 1587068100.733951
+T 6 0.000006 0.000006 0.000077 0.000082 0.010329 0.014257 0.014292 1587068100.744991
+final pcieread took 0.006746 seconds 
+total took 0.066456 seconds 
+total GFLOPS without init, windup and winddown=2763.805597 0.049728 
+ TFlops_sgemm_fpga=   1.88985939518482        1.84030903628989     
+ iter           2   18.1853122711182        50.2427406311035     
+ TFlops_sign=   1.77786341615945     
+ E=           1  -62.4330995287427     
+ INV=           1   34.4328690877007        1.37550008460293     

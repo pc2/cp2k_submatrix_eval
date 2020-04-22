@@ -1,0 +1,648 @@
+_ModuleTable011_=Il09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvRUItU1cvbW9kdWxlcy9hbGwvbGliL3psaWIvMS4yLjExLUdDQ2NvcmUtOC4zLjAubHVhIixbImZ1bGxOYW1lIl09ImxpYi96bGliLzEuMi4xMS1HQ0Njb3JlLTguMy4wIixbImxvYWRPcmRlciJdPTE1LHByb3BUPXt9LFsicmVmX2NvdW50Il09NSxbInN0YWNrRGVwdGgiXT02LFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJsaWIvemxpYi8xLjIuMTEtR0NDY29yZS04LjMuMCIsfSxsdWE9e1siZm4iXT0iL2NtL2xvY2FsL21vZHVsZWZpbGVzL2x1YS81LjMuNCIsWyJmdWxsTmFtZSJdPSJsdWEvNS4zLjQiLFsibG9hZE9yZGVyIl09MjgscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsi
+MKLROOT=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl
+EBVERSIONZLIB=1.2.11
+CPLUS_INCLUDE_PATH=/cm/shared/opt/intel/19.02/clck/2019.2.1/include
+SLURM_NODELIST=fpga-0001
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+EBVERSIONPYTHON=3.7.0
+EBVERSIONOPENMPI=3.1.4
+MANPATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/man:/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/share/man:/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/man:/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/share/man:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/man:/cm/shared/opt/intel/19.02/intelpython3/share/man:/cm/shared/opt/intel/19.02/itac/2019.3.032/man:/cm/shared/opt/intel/19.02/clck/2019.2.1/man:/cm/shared/opt/intel/19.02/man/common:/cm/shared/opt/intel/19.02/documentation_2019/en/debugger/gdb-ia/man:/opt/cray/slurm/17.11.8/share/man:/usr/share/lmod/lmod/share/man:/usr/local/share/man:/usr/share/man/overrides:/usr/share/man:/cm/local/apps/environment-modules/current/share/man::/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/man:/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/share/man:/cm/local/apps/lua/5.3.4/man:/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/share/man:/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/share/man:/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/man:/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/share/man:/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/share/man:/cm/shared/opt/intel/19.02/intelpython3/share/man:/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/man:/cm/shared/opt/intel/19.02/inspector_2019.3.0.591484/man:/opt/cray/slurm/17.11.8/share/man:/usr/local/share/man:/usr/share/man/overrides:/usr/share/man:/cm/shared/opt/intel/19.02/parallel_studio_xe_2019.3.062/man:/cm/local/apps/environment-modules/current/share/man
+SLURM_JOB_NAME=bash
+EBROOTFFTW=/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b
+EBDEVELGCC=/cm/shared/apps/pc2/EB-SW/software/GCC/8.3.0/easybuild/compiler-GCC-8.3.0-easybuild-devel
+XDG_SESSION_ID=294
+PMI_SIZE=1
+VT_MPI=impi4
+EBROOTNUMACTL=/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0
+EBDEVELPYTHON=/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/easybuild/lang-Python-3.7.0-foss-2018b-easybuild-devel
+_ModuleTable003_=b3JlIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9FQi1TVy9tb2R1bGVzL2FsbC9jb21waWxlci9HQ0Njb3JlLzguMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJjb21waWxlci9HQ0Njb3JlLzguMy4wIixbImxvYWRPcmRlciJdPTE0LHByb3BUPXt9LFsicmVmX2NvdW50Il09OSxbInN0YWNrRGVwdGgiXT01LFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjb21waWxlci9HQ0Njb3JlLzguMy4wIix9LFsiY3JheXBlLW5ldHdvcmstb3BhIl09e1siZm4iXT0iL29wdC9jcmF5L3BlL2NyYXlwZS9kZWZhdWx0L21vZHVsZWZpbGVzL2NyYXlwZS1uZXR3b3JrLW9wYSIsWyJmdWxsTmFtZSJdPSJjcmF5cGUtbmV0d29yay1vcGEiLFsibG9hZE9yZGVyIl09MzQscHJv
+HOSTNAME=ln-0001
+SLURM_TOPOLOGY_ADDR=opasw[06,14-15,07,11].opasw16.fpga-0001
+SLURMD_NODENAME=fpga-0001
+_ModuleTable024_=Yy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL01vZHVsZXMvbW9kdWxlZmlsZXMiLCIvY20vc2hhcmVkL21vZHVsZWZpbGVzIiwiL2NtL3NoYXJlZC9hcHBzL3BjMi9wYzJhZG1pbi9ERVBSRUNBVEVELU1PRFVMRVMiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2NtL2xvY2FsL21vZHVsZWZpbGVzOi9jbS9zaGFyZWQvbW9kdWxlZmlsZXM6L2V0Yy9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlcyIsfQ==
+__LMOD_REF_COUNT_CLASSPATH=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/lib/mpi.jar:2;/cm/shared/opt/intel/19.02/intelpython3/lib/mpi.jar:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/lib/daal.jar:1
+SLURM_PRIO_PROCESS=0
+_ModuleTable009_=Q0Njb3JlLTcuMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJsaWIvbGliZmZpLzMuMi4xLUdDQ2NvcmUtNy4zLjAiLFsibG9hZE9yZGVyIl09MTIscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImxpYi9saWJmZmkvMy4yLjEtR0NDY29yZS03LjMuMCIsfSxbImxpYi9saWJyZWFkbGluZSJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvRUItU1cvbW9kdWxlcy9hbGwvbGliL2xpYnJlYWRsaW5lLzcuMC1HQ0Njb3JlLTcuMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJsaWIvbGlicmVhZGxpbmUvNy4wLUdDQ2NvcmUtNy4zLjAiLFsibG9hZE9yZGVyIl09OCxwcm9wVD17fSxbInJlZl9jb3VudCJd
+IPPROOT=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/ipp
+INTEL_LICENSE_FILE=27000@license5.uni-paderborn.de
+EBVERSIONBINUTILS=2.32
+SLURM_SRUN_COMM_PORT=37967
+__LMOD_REF_COUNT_GPAW_SETUP_PATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/gpaw-setups-0.9.20000:1
+EBVERSIONNCURSES=6.1
+EBROOTTCL=/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0
+CLCK_ROOT=/cm/shared/opt/intel/19.02/clck/2019.2.1
+TERM=screen
+SHELL=/bin/bash
+I_MPI_FABRICS=shm:ofi
+EBROOTLIBFFI=/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0
+EBROOTGCCCORE=/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0
+HISTSIZE=1000
+SLURM_PTY_WIN_ROW=72
+SLURM_JOB_QOS=cont
+SSH_CLIENT=131.234.142.134 34770 22
+MODULEPATH_ROOT=/usr/share/modulefiles
+LMOD_SYSTEM_DEFAULT_MODULES=DefaultModules
+SLURM_TOPOLOGY_ADDR_PATTERN=switch.switch.node
+TMPDIR=/tmp
+LIBRARY_PATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/lib:/cm/shared/apps/pc2/EB-SW/software/ScaLAPACK/2.0.2-gompi-2019b/lib:/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib64:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib/python3.7/site-packages/numpy-1.14.5-py3.7-linux-x86_64.egg/numpy/core/lib:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib:/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib64:/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/math/GMP/6.1.2-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/lib:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/lib:/cm/shared/opt/intel/19.02/intelpython3/lib/libfabric:/cm/shared/opt/intel/19.02/clck/2019.2.1/lib/intel64:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/ipp/lib/intel64:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64_lin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64_lin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/tbb/lib/intel64/gcc4.7:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/lib/intel64_lin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4
+EBDEVELSCALAPACK=/cm/shared/apps/pc2/EB-SW/software/ScaLAPACK/2.0.2-gompi-2019b/easybuild/numlib-ScaLAPACK-2.0.2-gompi-2019b-easybuild-devel
+_ModuleTable021_=TmFtZSJdPSJ0b29scy9iaW51dGlscy8yLjMyLUdDQ2NvcmUtOC4zLjAiLH0sWyJ0b29scy9iemlwMiJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvRUItU1cvbW9kdWxlcy9hbGwvdG9vbHMvYnppcDIvMS4wLjgtR0NDY29yZS04LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0idG9vbHMvYnppcDIvMS4wLjgtR0NDY29yZS04LjMuMCIsWyJsb2FkT3JkZXIiXT0zMCxwcm9wVD17fSxbInJlZl9jb3VudCJdPTEsWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0idG9vbHMvYnppcDIvMS4wLjgtR0NDY29yZS04LjMuMCIsfSxbInRvb2xzL2NVUkwiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL3Rv
+EBDEVELLIBFFI=/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/easybuild/lib-libffi-3.2.1-GCCcore-7.3.0-easybuild-devel
+__LMOD_REF_COUNT_C_INCLUDE_PATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/include:1
+PC2SCRATCH=/upb/scratch/departments/pc2/groups
+PC2DATA=/upb/departments/pc2/groups
+LMOD_PKG=/usr/share/lmod/lmod
+SLURM_CPU_BIND_VERBOSE=quiet
+_ModuleTable015_=Vy9tb2R1bGVzL2FsbC9udW1saWIvU2NhTEFQQUNLLzIuMC4yLWdvbXBpLTIwMTliLmx1YSIsWyJmdWxsTmFtZSJdPSJudW1saWIvU2NhTEFQQUNLLzIuMC4yLWdvbXBpLTIwMTliIixbImxvYWRPcmRlciJdPTI2LHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJudW1saWIvU2NhTEFQQUNLLzIuMC4yLWdvbXBpLTIwMTliIix9LHBjMmZzPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvcGMyYWRtaW4vbW9kdWxlcy9wYzJmcyIsWyJmdWxsTmFtZSJdPSJwYzJmcyIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJO
+EBVERSIONFOSS=2018b
+EBROOTNCURSES=/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0
+LMOD_VERSION=7.7.14
+EBROOTSCALAPACK=/cm/shared/apps/pc2/EB-SW/software/ScaLAPACK/2.0.2-gompi-2019b
+SSH_TTY=/dev/pts/0
+_ModuleTable007_=ZHVsZWZpbGVzL2ludGVsLzE5LjAuMyIsWyJmdWxsTmFtZSJdPSJpbnRlbC8xOS4wLjMiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInJlZl9jb3VudCJdPTEsWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaW50ZWwvMTkuMC4zIix9LFsibGFuZy9QeXRob24iXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL2xhbmcvUHl0aG9uLzMuNy4wLWZvc3MtMjAxOGIubHVhIixbImZ1bGxOYW1lIl09ImxhbmcvUHl0aG9uLzMuNy4wLWZvc3MtMjAxOGIiLFsibG9hZE9yZGVyIl09MTMscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVz
+__LMOD_REF_COUNT_PYTHONUSERBASE=/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local:1
+EBROOTPYTHON=/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b
+EBDEVELNUMACTL=/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/easybuild/tools-numactl-2.0.12-GCCcore-8.3.0-easybuild-devel
+__LMOD_REF_COUNT_LOADEDMODULES=shared:1;pc2fs:1;slurm/17.11.8:1;DefaultModules:1;intel/19.0.3:1;numlib/FFTW/3.3.8-gompi-2018b:1;toolchain/foss/2018b:1;lib/libreadline/7.0-GCCcore-7.3.0:1;lang/Tcl/8.6.8-GCCcore-7.3.0:1;devel/SQLite/3.24.0-GCCcore-7.3.0:1;math/GMP/6.1.2-GCCcore-7.3.0:1;lib/libffi/3.2.1-GCCcore-7.3.0:1;lang/Python/3.7.0-foss-2018b:1;compiler/GCCcore/8.3.0:1;lib/zlib/1.2.11-GCCcore-8.3.0:1;tools/numactl/2.0.12-GCCcore-8.3.0:1;tools/XZ/5.2.4-GCCcore-8.3.0:1;lib/libxml2/2.9.9-GCCcore-8.3.0:1;system/libpciaccess/0.14-GCCcore-8.3.0:1;system/hwloc/1.11.12-GCCcore-8.3.0:1;mpi/OpenMPI/3.1.4-GCC-8.3.0:1;toolchain/gompi/2019b:1;tools/binutils/2.32-GCCcore-8.3.0:1;compiler/GCC/8.3.0:1;numlib/OpenBLAS/0.3.7-GCC-8.3.0:1;numlib/ScaLAPACK/2.0.2-gompi-2019b:1;chem/GPAW/20_1_0:1;lua/5.3.4:1;devel/ncurses/6.1-GCCcore-8.3.0:1;tools/bzip2/1.0.8-GCCcore-8.3.0:1;tools/cURL/7.66.0-GCCcore-8.3.0:1;devel/CMake/3.15.3-GCCcore-8.3.0:1;craype-x86-skylake:1;craype-network-opa:1
+SLURM_CPU_BIND_LIST=0xFFFFFFFFFF
+PYTHONUSERBASE=/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local
+slurm_VERSION=17.11.8
+USER=USER
+SLURM_NNODES=1
+_ModuleTable022_=b2xzL2NVUkwvNy42Ni4wLUdDQ2NvcmUtOC4zLjAubHVhIixbImZ1bGxOYW1lIl09InRvb2xzL2NVUkwvNy42Ni4wLUdDQ2NvcmUtOC4zLjAiLFsibG9hZE9yZGVyIl09MzEscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InRvb2xzL2NVUkwvNy42Ni4wLUdDQ2NvcmUtOC4zLjAiLH0sWyJ0b29scy9udW1hY3RsIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9FQi1TVy9tb2R1bGVzL2FsbC90b29scy9udW1hY3RsLzIuMC4xMi1HQ0Njb3JlLTguMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJ0b29scy9udW1hY3RsLzIuMC4xMi1HQ0Njb3JlLTguMy4wIixbImxvYWRPcmRlciJdPTE2LHBy
+__LMOD_REF_COUNT_FI_PROVIDER_PATH=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/lib/prov:1
+EBDEVELZLIB=/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/easybuild/lib-zlib-1.2.11-GCCcore-8.3.0-easybuild-devel
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+LMOD_sys=Linux
+LD_LIBRARY_PATH=/opt/cray/pe/lib64:/opt/cray/pe/lib64/cce:/opt/cray/lib64:/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/lib:/cm/local/apps/lua/5.3.4/lib64:/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/7.3.0/lib64:/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/lib:/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/ase-3.19.0/bin:/cm/shared/apps/pc2/EB-SW/software/ScaLAPACK/2.0.2-gompi-2019b/lib:/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib64:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib/python3.7/site-packages/numpy-1.14.5-py3.7-linux-x86_64.egg/numpy/core/lib:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib:/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib64:/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/math/GMP/6.1.2-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/lib:/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/lib:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/lib:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/lib/release:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/lib:/cm/shared/opt/intel/19.02/intelpython3/lib/libfabric:/cm/shared/opt/intel/19.02/intelpython3/lib:/cm/shared/opt/intel/19.02/itac/2019.3.032/intel64/slib:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64_lin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/ipp/lib/intel64:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64_lin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/tbb/lib/intel64/gcc4.7:/cm/shared/opt/intel/19.02/debugger_2019/libipt/intel64/lib:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/lib/intel64_lin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4:/opt/cray/pe/lib64:/opt/cray/pe/lib64/cce:/opt/cray/lib64:/opt/cray/slurm/17.11.8/lib
+_ModuleTable010_=PTIsWyJzdGFja0RlcHRoIl09MixbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ibGliL2xpYnJlYWRsaW5lLzcuMC1HQ0Njb3JlLTcuMy4wIix9LFsibGliL2xpYnhtbDIiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL2xpYi9saWJ4bWwyLzIuOS45LUdDQ2NvcmUtOC4zLjAubHVhIixbImZ1bGxOYW1lIl09ImxpYi9saWJ4bWwyLzIuOS45LUdDQ2NvcmUtOC4zLjAiLFsibG9hZE9yZGVyIl09MTgscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTUsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImxpYi9saWJ4bWwyLzIuOS45LUdDQ2NvcmUtOC4zLjAiLH0sWyJsaWIvemxpYiJdPXtbImZu
+PSTLROOT=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/pstl
+EBDEVELBINUTILS=/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/easybuild/tools-binutils-2.32-GCCcore-8.3.0-easybuild-devel
+EBVERSIONCURL=7.66.0
+FI_PROVIDER_PATH=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/lib/prov
+EBVERSIONGMP=6.1.2
+SLURM_STEP_NUM_NODES=1
+EBROOTCMAKE=/cm/shared/apps/pc2/EB-SW/software/CMake/3.15.3-GCCcore-8.3.0
+INSPECTOR_2019_DIR=/cm/shared/opt/intel/19.02/inspector_2019.3.0.591484
+CPATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/ScaLAPACK/2.0.2-gompi-2019b/include:/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/include:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib/python3.7/site-packages/numpy-1.14.5-py3.7-linux-x86_64.egg/numpy/core/include:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/include:/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/include:/cm/shared/apps/pc2/EB-SW/software/math/GMP/6.1.2-GCCcore-7.3.0/include:/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/include:/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/include:/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/include:/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/include:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/ipp/include:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/include:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/pstl/include:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/tbb/include:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/include
+_ModuleTable004_=cFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iY3JheXBlLW5ldHdvcmstb3BhIix9LFsiY3JheXBlLXg4Ni1za3lsYWtlIl09e1siZm4iXT0iL29wdC9jcmF5L3BlL2NyYXlwZS9kZWZhdWx0L21vZHVsZWZpbGVzL2NyYXlwZS14ODYtc2t5bGFrZSIsWyJmdWxsTmFtZSJdPSJjcmF5cGUteDg2LXNreWxha2UiLFsibG9hZE9yZGVyIl09MzMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iY3JheXBlLXg4Ni1za3lsYWtlIix9LFsiZGV2ZWwvQ01ha2UiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL2RldmVsL0NNYWtlLzMuMTUu
+SRUN_DEBUG=3
+SLURM_JOBID=583009
+GPAW_SETUP_PATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/gpaw-setups-0.9.20000
+__LMOD_REF_COUNT__LMFILES_=/cm/local/modulefiles/shared:1;/cm/shared/apps/pc2/pc2admin/modules/pc2fs:1;/opt/cray/modulefiles/slurm/17.11.8:1;/usr/share/modulefiles/DefaultModules.lua:1;/opt/cray/modulefiles/intel/19.0.3:1;/cm/shared/apps/pc2/EB-SW/modules/all/numlib/FFTW/3.3.8-gompi-2018b.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/toolchain/foss/2018b.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/lib/libreadline/7.0-GCCcore-7.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/lang/Tcl/8.6.8-GCCcore-7.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/devel/SQLite/3.24.0-GCCcore-7.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/math/GMP/6.1.2-GCCcore-7.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/lib/libffi/3.2.1-GCCcore-7.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/lang/Python/3.7.0-foss-2018b.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCCcore/8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/lib/zlib/1.2.11-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/tools/numactl/2.0.12-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/tools/XZ/5.2.4-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/lib/libxml2/2.9.9-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/system/libpciaccess/0.14-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/system/hwloc/1.11.12-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/mpi/OpenMPI/3.1.4-GCC-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/toolchain/gompi/2019b.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/tools/binutils/2.32-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCC/8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/numlib/OpenBLAS/0.3.7-GCC-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/numlib/ScaLAPACK/2.0.2-gompi-2019b.lua:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/chem/GPAW/20_1_0.lua:1;/cm/local/modulefiles/lua/5.3.4:1;/cm/shared/apps/pc2/EB-SW/modules/all/devel/ncurses/6.1-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/tools/bzip2/1.0.8-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/tools/cURL/7.66.0-GCCcore-8.3.0.lua:1;/cm/shared/apps/pc2/EB-SW/modules/all/devel/CMake/3.15.3-GCCcore-8.3.0.lua:1;/opt/cray/pe/craype/default/modulefiles/craype-x86-skylake:1;/opt/cray/pe/craype/default/modulefiles/craype-network-opa:1
+EBVERSIONFFTW=3.3.8
+PE_PRODUCT_LIST=CRAYPE_X86_SKYLAKE
+SLURM_NTASKS=1
+EBVERSIONXZ=5.2.4
+EBVERSIONNUMACTL=2.0.12
+EBDEVELSQLITE=/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/easybuild/devel-SQLite-3.24.0-GCCcore-7.3.0-easybuild-devel
+EBDEVELLIBXML2=/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/easybuild/lib-libxml2-2.9.9-GCCcore-8.3.0-easybuild-devel
+SLURM_LAUNCH_NODE_IPADDR=10.10.1.19
+_ModuleTable013_=WyJmdWxsTmFtZSJdPSJtcGkvT3Blbk1QSS8zLjEuNC1HQ0MtOC4zLjAiLFsibG9hZE9yZGVyIl09MjEscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTMsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im1waS9PcGVuTVBJLzMuMS40LUdDQy04LjMuMCIsfSxbIm51bWxpYi9GRlRXIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9FQi1TVy9tb2R1bGVzL2FsbC9udW1saWIvRkZUVy8zLjMuOC1nb21waS0yMDE4Yi5sdWEiLFsiZnVsbE5hbWUiXT0ibnVtbGliL0ZGVFcvMy4zLjgtZ29tcGktMjAxOGIiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInJlZl9jb3VudCJdPTEsWyJzdGFja0RlcHRoIl09MyxbInN0YXR1cyJdPSJhY3Rp
+TMUX=/tmp/tmux-69652/default,126865,0
+SLURM_STEP_ID=0
+EBROOTOPENBLAS=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0
+EBROOTGMP=/cm/shared/apps/pc2/EB-SW/software/math/GMP/6.1.2-GCCcore-7.3.0
+__LMOD_REF_COUNT_CONDA_PATH_BACKUP=/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/bin64:1;/cm/shared/opt/intel/19.02/vtune_amplifier_2019.3.0.591499/bin64:1;/cm/shared/opt/intel/19.02/inspector_2019.3.0.591484/bin64:1;/cm/shared/opt/intel/19.02/itac/2019.3.032/intel64/bin:2;/cm/shared/opt/intel/19.02/clck/2019.2.1/bin/intel64:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/bin/intel64:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/bin:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/bin:1;/cm/shared/opt/intel/19.02/debugger_2019/gdb/intel64/bin:1;/opt/cray/slurm/17.11.8/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/upb/departments/pc2/users/k/kel/bin:1
+LMOD_PREPEND_BLOCK=normal
+NLSPATH=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64/locale/%l_%t/%N:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64_lin/locale/%l_%t/%N:/cm/shared/opt/intel/19.02/debugger_2019/gdb/intel64/share/locale/%l_%t/%N
+VT_ADD_LIBS=-ldwarf -lelf -lvtunwind -lm -lpthread
+__LMOD_REF_COUNT_NLSPATH=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64/locale/%l_%t/%N:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64_lin/locale/%l_%t/%N:1;/cm/shared/opt/intel/19.02/debugger_2019/gdb/intel64/share/locale/%l_%t/%N:1
+EBVERSIONOPENBLAS=0.3.7
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTcyMDAsWyJjX3Nob3J0VGltZSJdPTEuNzM5NjYwOTc4MzE3MyxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXtEZWZhdWx0TW9kdWxlcz17WyJmbiJdPSIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0RlZmF1bHRNb2R1bGVzLmx1YSIsWyJmdWxsTmFtZSJdPSJEZWZhdWx0TW9kdWxlcyIsWyJsb2FkT3JkZXIiXT00LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09IkRlZmF1bHRNb2R1bGVzIix9LFsiY2hlbS9HUEFXIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9DSEVNX1BIWVNfU1cvbW9kdWxlcy9jaGVtL0dQQVcvMjBfMV8wLmx1
+PATH=/cm/shared/apps/pc2/EB-SW/software/CMake/3.15.3-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/bin:/cm/local/apps/lua/5.3.4/bin:/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/bin:/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/ase-3.19.0/bin:/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/sbin:/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/bin:/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/bin:/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/bin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/bin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/bin:/cm/shared/opt/intel/19.02/intelpython3/bin/libfabric:/cm/shared/opt/intel/19.02/intelpython3/bin:/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/bin64:/cm/shared/opt/intel/19.02/vtune_amplifier_2019.3.0.591499/bin64:/cm/shared/opt/intel/19.02/inspector_2019.3.0.591484/bin64:/cm/shared/opt/intel/19.02/itac/2019.3.032/intel64/bin:/cm/shared/opt/intel/19.02/clck/2019.2.1/bin/intel64:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/bin/intel64:/cm/shared/opt/intel/19.02/debugger_2019/gdb/intel64/bin:/opt/cray/slurm/17.11.8/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/upb/departments/pc2/users/r/USER/bin:/cm/shared/opt/intel/19.02/parallel_studio_xe_2019.3.062/bin
+MAIL=/var/spool/mail/USER
+SLURM_TASKS_PER_NODE=1
+SLURM_STEP_LAUNCHER_PORT=37967
+EBVERSIONHWLOC=1.11.12
+CONDA_PATH_BACKUP=/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/bin64:/cm/shared/opt/intel/19.02/vtune_amplifier_2019.3.0.591499/bin64:/cm/shared/opt/intel/19.02/inspector_2019.3.0.591484/bin64:/cm/shared/opt/intel/19.02/itac/2019.3.032/intel64/bin:/cm/shared/opt/intel/19.02/clck/2019.2.1/bin/intel64:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/bin/intel64:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/bin:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/bin:/cm/shared/opt/intel/19.02/debugger_2019/gdb/intel64/bin:/opt/cray/slurm/17.11.8/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/upb/departments/pc2/users/k/kel/bin
+SLURM_WORKING_CLUSTER=noctua:10.10.3.254:6817:8192
+_ModuleTable014_=dmUiLFsidXNlck5hbWUiXT0ibnVtbGliL0ZGVFcvMy4zLjgtZ29tcGktMjAxOGIiLH0sWyJudW1saWIvT3BlbkJMQVMiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL251bWxpYi9PcGVuQkxBUy8wLjMuNy1HQ0MtOC4zLjAubHVhIixbImZ1bGxOYW1lIl09Im51bWxpYi9PcGVuQkxBUy8wLjMuNy1HQ0MtOC4zLjAiLFsibG9hZE9yZGVyIl09MjUscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im51bWxpYi9PcGVuQkxBUy8wLjMuNy1HQ0MtOC4zLjAiLH0sWyJudW1saWIvU2NhTEFQQUNLIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9FQi1T
+EBDEVELGMP=/cm/shared/apps/pc2/EB-SW/software/math/GMP/6.1.2-GCCcore-7.3.0/easybuild/math-GMP-6.1.2-GCCcore-7.3.0-easybuild-devel
+__LMOD_REF_COUNT_CPLUS_INCLUDE_PATH=/cm/shared/opt/intel/19.02/clck/2019.2.1/include:1
+SLURM_JOB_ID=583009
+PMI_RANK=0
+TBBROOT=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/tbb
+EBVERSIONTCL=8.6.8
+C_INCLUDE_PATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/include
+CONDA_PREFIX=/cm/shared/opt/intel/19.02/intelpython3
+LMOD_SETTARG_CMD=:
+EBDEVELGOMPI=/cm/shared/apps/pc2/EB-SW/software/gompi/2019b/easybuild/toolchain-gompi-2019b-easybuild-devel
+__LMOD_REF_COUNT_PE_PRODUCT_LIST=CRAYPE_X86_SKYLAKE:1
+PWD=/scratch/hpc-prf-ldft/USER/fpga_sgemm/examples_aoc/matrix_mult
+PC2SW=/cm/shared/apps/pc2
+SLURM_STEPID=0
+SLURM_JOB_USER=USER
+EBVERSIONLIBREADLINE=7.0
+_LMFILES_=/cm/local/modulefiles/shared:/cm/shared/apps/pc2/pc2admin/modules/pc2fs:/opt/cray/modulefiles/slurm/17.11.8:/usr/share/modulefiles/DefaultModules.lua:/opt/cray/modulefiles/intel/19.0.3:/cm/shared/apps/pc2/EB-SW/modules/all/numlib/FFTW/3.3.8-gompi-2018b.lua:/cm/shared/apps/pc2/EB-SW/modules/all/toolchain/foss/2018b.lua:/cm/shared/apps/pc2/EB-SW/modules/all/lib/libreadline/7.0-GCCcore-7.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/lang/Tcl/8.6.8-GCCcore-7.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/devel/SQLite/3.24.0-GCCcore-7.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/math/GMP/6.1.2-GCCcore-7.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/lib/libffi/3.2.1-GCCcore-7.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/lang/Python/3.7.0-foss-2018b.lua:/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCCcore/8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/lib/zlib/1.2.11-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/tools/numactl/2.0.12-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/tools/XZ/5.2.4-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/lib/libxml2/2.9.9-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/system/libpciaccess/0.14-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/system/hwloc/1.11.12-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/mpi/OpenMPI/3.1.4-GCC-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/toolchain/gompi/2019b.lua:/cm/shared/apps/pc2/EB-SW/modules/all/tools/binutils/2.32-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/compiler/GCC/8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/numlib/OpenBLAS/0.3.7-GCC-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/numlib/ScaLAPACK/2.0.2-gompi-2019b.lua:/cm/shared/apps/pc2/CHEM_PHYS_SW/modules/chem/GPAW/20_1_0.lua:/cm/local/modulefiles/lua/5.3.4:/cm/shared/apps/pc2/EB-SW/modules/all/devel/ncurses/6.1-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/tools/bzip2/1.0.8-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/tools/cURL/7.66.0-GCCcore-8.3.0.lua:/cm/shared/apps/pc2/EB-SW/modules/all/devel/CMake/3.15.3-GCCcore-8.3.0.lua:/opt/cray/pe/craype/default/modulefiles/craype-x86-skylake:/opt/cray/pe/craype/default/modulefiles/craype-network-opa
+SLURM_SRUN_COMM_HOST=10.10.1.19
+EBDEVELGCCCORE=/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/easybuild/compiler-GCCcore-8.3.0-easybuild-devel
+SLURM_CPU_BIND_TYPE=mask_cpu:
+__LMOD_REF_COUNT_PYTHONPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/ase-3.19.0:1;/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/pythonapi:1
+EBVERSIONSCALAPACK=2.0.2
+EBROOTHWLOC=/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0
+LANG=de_DE.UTF-8
+_ModuleTable023_=b3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT01LFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ0b29scy9udW1hY3RsLzIuMC4xMi1HQ0Njb3JlLTguMy4wIix9LH0sbXBhdGhBPXsiL29wdC9jcmF5L3BlL2NyYXlwZS9kZWZhdWx0L21vZHVsZWZpbGVzIiwiL29wdC9jcmF5L3BlL21vZHVsZWZpbGVzIiwiL29wdC9jcmF5L21vZHVsZWZpbGVzIiwiL29wdC9tb2R1bGVmaWxlcyIsIi9jbS9zaGFyZWQvYXBwcy9wYzIvQ0hFTV9QSFlTX1NXL21vZHVsZXMiLCIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsIiwiL2NtL3NoYXJlZC9hcHBzL3BjMi9wYzJhZG1pbi9tb2R1bGVzIiwiL2NtL2xvY2FsL21vZHVsZWZpbGVzIiwiL2V0
+EBROOTSQLITE=/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0
+EBROOTGOMPI=/cm/shared/apps/pc2/EB-SW/software/gompi/2019b
+MODULEPATH=/opt/cray/pe/craype/default/modulefiles:/opt/cray/pe/modulefiles:/opt/cray/modulefiles:/opt/modulefiles:/cm/shared/apps/pc2/CHEM_PHYS_SW/modules:/cm/shared/apps/pc2/EB-SW/modules/all:/cm/shared/apps/pc2/pc2admin/modules:/cm/local/modulefiles:/etc/modulefiles:/usr/share/modulefiles:/usr/share/Modules/modulefiles:/cm/shared/modulefiles:/cm/shared/apps/pc2/pc2admin/DEPRECATED-MODULES
+SLURM_UMASK=0022
+SLURM_PTY_WIN_COL=282
+_ModuleTable017_=LVNXL21vZHVsZXMvYWxsL3N5c3RlbS9od2xvYy8xLjExLjEyLUdDQ2NvcmUtOC4zLjAubHVhIixbImZ1bGxOYW1lIl09InN5c3RlbS9od2xvYy8xLjExLjEyLUdDQ2NvcmUtOC4zLjAiLFsibG9hZE9yZGVyIl09MjAscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTQsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InN5c3RlbS9od2xvYy8xLjExLjEyLUdDQ2NvcmUtOC4zLjAiLH0sWyJzeXN0ZW0vbGlicGNpYWNjZXNzIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9FQi1TVy9tb2R1bGVzL2FsbC9zeXN0ZW0vbGlicGNpYWNjZXNzLzAuMTQtR0NDY29yZS04LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0ic3lzdGVtL2xpYnBjaWFjY2Vz
+VT_LIB_DIR=/cm/shared/opt/intel/19.02/itac/2019.3.032/intel64/lib
+__LMOD_REF_COUNT_INFOPATH=/cm/shared/opt/intel/19.02/documentation_2019/en/debugger/gdb-ia/info:1
+EBVERSIONLIBPCIACCESS=0.14
+EBROOTGCC=/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0
+_ModuleTable_Sz_=24
+LOADEDMODULES=shared:pc2fs:slurm/17.11.8:DefaultModules:intel/19.0.3:numlib/FFTW/3.3.8-gompi-2018b:toolchain/foss/2018b:lib/libreadline/7.0-GCCcore-7.3.0:lang/Tcl/8.6.8-GCCcore-7.3.0:devel/SQLite/3.24.0-GCCcore-7.3.0:math/GMP/6.1.2-GCCcore-7.3.0:lib/libffi/3.2.1-GCCcore-7.3.0:lang/Python/3.7.0-foss-2018b:compiler/GCCcore/8.3.0:lib/zlib/1.2.11-GCCcore-8.3.0:tools/numactl/2.0.12-GCCcore-8.3.0:tools/XZ/5.2.4-GCCcore-8.3.0:lib/libxml2/2.9.9-GCCcore-8.3.0:system/libpciaccess/0.14-GCCcore-8.3.0:system/hwloc/1.11.12-GCCcore-8.3.0:mpi/OpenMPI/3.1.4-GCC-8.3.0:toolchain/gompi/2019b:tools/binutils/2.32-GCCcore-8.3.0:compiler/GCC/8.3.0:numlib/OpenBLAS/0.3.7-GCC-8.3.0:numlib/ScaLAPACK/2.0.2-gompi-2019b:chem/GPAW/20_1_0:lua/5.3.4:devel/ncurses/6.1-GCCcore-8.3.0:tools/bzip2/1.0.8-GCCcore-8.3.0:tools/cURL/7.66.0-GCCcore-8.3.0:devel/CMake/3.15.3-GCCcore-8.3.0:craype-x86-skylake:craype-network-opa
+SLURM_JOB_UID=69652
+EBROOTBINUTILS=/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0
+EBDEVELOPENBLAS=/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/easybuild/numlib-OpenBLAS-0.3.7-GCC-8.3.0-easybuild-devel
+TMUX_PANE=%9
+SLURM_NODEID=0
+_ModuleTable019_=aW4vZm9zcy8yMDE4YiIsfSxbInRvb2xjaGFpbi9nb21waSJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvRUItU1cvbW9kdWxlcy9hbGwvdG9vbGNoYWluL2dvbXBpLzIwMTliLmx1YSIsWyJmdWxsTmFtZSJdPSJ0b29sY2hhaW4vZ29tcGkvMjAxOWIiLFsibG9hZE9yZGVyIl09MjIscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InRvb2xjaGFpbi9nb21waS8yMDE5YiIsfSxbInRvb2xzL1haIl09e1siZm4iXT0iL2NtL3NoYXJlZC9hcHBzL3BjMi9FQi1TVy9tb2R1bGVzL2FsbC90b29scy9YWi81LjIuNC1HQ0Njb3JlLTguMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJ0b29scy9YWi81
+EBVERSIONGCC=8.3.0
+EBROOTLIBREADLINE=/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0
+EBDEVELLIBPCIACCESS=/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/easybuild/system-libpciaccess-0.14-GCCcore-8.3.0-easybuild-devel
+ENABLE_LMOD=1
+SLURM_SUBMIT_DIR=/scratch/hpc-prf-ldft/USER/fpga_sgemm/examples_aoc/matrix_mult
+VT_ROOT=/cm/shared/opt/intel/19.02/itac/2019.3.032
+_ModuleTable005_=My1HQ0Njb3JlLTguMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJkZXZlbC9DTWFrZS8zLjE1LjMtR0NDY29yZS04LjMuMCIsWyJsb2FkT3JkZXIiXT0zMixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJkZXZlbC9DTWFrZS8zLjE1LjMtR0NDY29yZS04LjMuMCIsfSxbImRldmVsL1NRTGl0ZSJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvRUItU1cvbW9kdWxlcy9hbGwvZGV2ZWwvU1FMaXRlLzMuMjQuMC1HQ0Njb3JlLTcuMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJkZXZlbC9TUUxpdGUvMy4yNC4wLUdDQ2NvcmUtNy4zLjAiLFsibG9hZE9yZGVyIl09MTAscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tE
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+SLURM_NPROCS=1
+SLURM_TASK_PID=213808
+PMI_JOBID=583009.0
+EBDEVELCMAKE=/cm/shared/apps/pc2/EB-SW/software/CMake/3.15.3-GCCcore-8.3.0/easybuild/devel-CMake-3.15.3-GCCcore-8.3.0-easybuild-devel
+EBDEVELTCL=/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/easybuild/lang-Tcl-8.6.8-GCCcore-7.3.0-easybuild-devel
+DAALROOT=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal
+SLURM_DISTRIBUTION=cyclic
+SLURM_CPUS_ON_NODE=40
+EBVERSIONSQLITE=3.24.0
+ADVISOR_2019_DIR=/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490
+PC2SYSNAME=Noctua
+HISTCONTROL=ignoredups
+SLURM_PROCID=0
+EBVERSIONCMAKE=3.15.3
+INTEL_PYTHONHOME=/cm/shared/opt/intel/19.02/debugger_2019/python/intel64/
+EBROOTLIBPCIACCESS=/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0
+EBDEVELLIBREADLINE=/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/easybuild/lib-libreadline-7.0-GCCcore-7.3.0-easybuild-devel
+EBDEVELBZIP2=/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/easybuild/tools-bzip2-1.0.8-GCCcore-8.3.0-easybuild-devel
+PC2PFS=/scratch
+SLURM_JOB_NODELIST=fpga-0001
+_ModuleTable012_=dXNlck5hbWUiXT0ibHVhLzUuMy40Iix9LFsibWF0aC9HTVAiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL21hdGgvR01QLzYuMS4yLUdDQ2NvcmUtNy4zLjAubHVhIixbImZ1bGxOYW1lIl09Im1hdGgvR01QLzYuMS4yLUdDQ2NvcmUtNy4zLjAiLFsibG9hZE9yZGVyIl09MTEscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im1hdGgvR01QLzYuMS4yLUdDQ2NvcmUtNy4zLjAiLH0sWyJtcGkvT3Blbk1QSSJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvRUItU1cvbW9kdWxlcy9hbGwvbXBpL09wZW5NUEkvMy4xLjQtR0NDLTguMy4wLmx1YSIs
+EBVERSIONGCCCORE=8.3.0
+EBROOTLIBXML2=/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0
+SHLVL=4
+HOME=/upb/departments/pc2/users/r/USER
+SLURM_PTY_PORT=37400
+CURL_INCLUDES=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/include
+EBDEVELFFTW=/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/easybuild/numlib-FFTW-3.3.8-gompi-2018b-easybuild-devel
+__LMOD_REF_COUNT_PATH=/cm/shared/apps/pc2/EB-SW/software/CMake/3.15.3-GCCcore-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/bin:1;/cm/local/apps/lua/5.3.4/bin:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/bin:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/ase-3.19.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/sbin:1;/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/bin:1;/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/bin:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/bin:2;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/bin:2;/cm/shared/opt/intel/19.02/intelpython3/bin/libfabric:1;/cm/shared/opt/intel/19.02/intelpython3/bin:2;/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/bin64:1;/cm/shared/opt/intel/19.02/vtune_amplifier_2019.3.0.591499/bin64:1;/cm/shared/opt/intel/19.02/inspector_2019.3.0.591484/bin64:1;/cm/shared/opt/intel/19.02/itac/2019.3.032/intel64/bin:2;/cm/shared/opt/intel/19.02/clck/2019.2.1/bin/intel64:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/bin/intel64:1;/cm/shared/opt/intel/19.02/debugger_2019/gdb/intel64/bin:1;/opt/cray/slurm/17.11.8/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/upb/departments/pc2/users/r/USER/bin:2;/cm/shared/opt/intel/19.02/parallel_studio_xe_2019.3.062/bin:1
+SLURM_LOCALID=0
+EBDEVELCURL=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/easybuild/tools-cURL-7.66.0-GCCcore-8.3.0-easybuild-devel
+EBDEVELXZ=/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/easybuild/tools-XZ-5.2.4-GCCcore-8.3.0-easybuild-devel
+__LMOD_REF_COUNT_CPATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/ScaLAPACK/2.0.2-gompi-2019b/include:1;/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/include/libxml2:1;/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib/python3.7/site-packages/numpy-1.14.5-py3.7-linux-x86_64.egg/numpy/core/include:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/include:1;/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/math/GMP/6.1.2-GCCcore-7.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/include:1;/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/include:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/ipp/include:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/include:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/pstl/include:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/tbb/include:2;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/include:1
+PMI_FD=13
+EBDEVELHWLOC=/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/easybuild/system-hwloc-1.11.12-GCCcore-8.3.0-easybuild-devel
+_ModuleTable002_=YSIsWyJmdWxsTmFtZSJdPSJjaGVtL0dQQVcvMjBfMV8wIixbImxvYWRPcmRlciJdPTI3LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImNoZW0vR1BBVy8yMF8xXzAiLH0sWyJjb21waWxlci9HQ0MiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL2NvbXBpbGVyL0dDQy84LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY29tcGlsZXIvR0NDLzguMy4wIixbImxvYWRPcmRlciJdPTI0LHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT0zLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjb21waWxlci9HQ0MvOC4zLjAiLH0sWyJjb21waWxlci9HQ0Nj
+SLURM_CLUSTER_NAME=noctua
+SLURM_JOB_CPUS_PER_NODE=40
+SLURM_JOB_GID=10000
+VT_SLIB_DIR=/cm/shared/opt/intel/19.02/itac/2019.3.032/intel64/slib
+VT_ARCH=intel64
+CONDA_PS1_BACKUP=
+SHOST=ln-0001
+CRAYPE_NETWORK_TARGET=opa
+SLURM_SUBMIT_HOST=ln-0001
+SLURM_GTIDS=0
+_ModuleTable008_=ZXJOYW1lIl09ImxhbmcvUHl0aG9uLzMuNy4wLWZvc3MtMjAxOGIiLH0sWyJsYW5nL1RjbCJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvRUItU1cvbW9kdWxlcy9hbGwvbGFuZy9UY2wvOC42LjgtR0NDY29yZS03LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0ibGFuZy9UY2wvOC42LjgtR0NDY29yZS03LjMuMCIsWyJsb2FkT3JkZXIiXT05LHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT0zLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJsYW5nL1RjbC84LjYuOC1HQ0Njb3JlLTcuMy4wIix9LFsibGliL2xpYmZmaSJdPXtbImZuIl09Ii9jbS9zaGFyZWQvYXBwcy9wYzIvRUItU1cvbW9kdWxlcy9hbGwvbGliL2xpYmZmaS8zLjIuMS1H
+EBROOTFOSS=/cm/shared/apps/pc2/EB-SW/software/toolchain/foss/2018b
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+SLURM_JOB_PARTITION=fpga
+EBROOTCURL=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0
+PYTHONPATH=/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/ase-3.19.0:/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/pythonapi
+EBROOTXZ=/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0
+EBROOTOPENMPI=/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0
+LOGNAME=USER
+LMOD_arch=x86_64
+SLURM_STEP_NUM_TASKS=1
+EBVERSIONLIBFFI=3.2.1
+CLASSPATH=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/lib/mpi.jar:/cm/shared/opt/intel/19.02/intelpython3/lib/mpi.jar:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/lib/daal.jar
+XDG_DATA_DIRS=/upb/departments/pc2/users/r/USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=131.234.142.134 38936 131.234.92.97 22
+SLURM_JOB_ACCOUNT=hpc-prf-ldft
+__LMOD_REF_COUNT_LIBRARY_PATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/lib:1;/cm/shared/apps/pc2/EB-SW/software/ScaLAPACK/2.0.2-gompi-2019b/lib:1;/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib64:1;/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib/python3.7/site-packages/numpy-1.14.5-py3.7-linux-x86_64.egg/numpy/core/lib:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib:1;/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib64:1;/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/math/GMP/6.1.2-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/lib:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/lib:2;/cm/shared/opt/intel/19.02/intelpython3/lib/libfabric:1;/cm/shared/opt/intel/19.02/clck/2019.2.1/lib/intel64:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/ipp/lib/intel64:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64_lin:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64_lin:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/tbb/lib/intel64/gcc4.7:2;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/lib/intel64_lin:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4:1
+__LMOD_REF_COUNT_ACLOCAL_PATH=/cm/shared/apps/pc2/EB-SW/software/CMake/3.15.3-GCCcore-8.3.0/share/aclocal:1;/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/share/aclocal:1;/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/share/aclocal:1
+MODULESHOME=/usr/share/lmod/lmod
+SLURM_JOB_NUM_NODES=1
+PKG_CONFIG_PATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/lib/pkgconfig:/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/lib/pkgconfig:/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/include/pkgconfig/lib64:/cm/shared/opt/intel/19.02/vtune_amplifier_2019.3.0.591499/include/pkgconfig/lib64:/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/bin/pkgconfig
+EBEXTSLISTPYTHON=setuptools-39.2.0,pip-10.0.1,nose-1.3.7,numpy-1.14.5,scipy-1.1.0,blist-1.3.6,mpi4py-3.0.0,paycheck-1.0.2,pbr-4.0.4,Cython-0.28.3,six-1.11.0,python-dateutil-2.7.3,deap-1.2.2,decorator-4.3.0,liac-arff-2.2.2,pycrypto-2.6.1,ecdsa-0.13,pycparser-2.18,cffi-1.11.5,asn1crypto-0.24.0,idna-2.7,cryptography-2.2.2,pyasn1-0.4.3,PyNaCl-1.2.1,bcrypt-3.1.4,paramiko-2.4.1,pyparsing-2.2.0,netifaces-0.10.7,netaddr-0.7.19,mock-2.0.0,pytz-2018.4,pandas-0.23.3,bitstring-3.1.5,virtualenv-16.0.0,docopt-0.6.2,joblib-0.11,chardet-3.0.4,certifi-2018.4.16,urllib3-1.23,requests-2.19.1,xlrd-1.1.0,py_expression_eval-0.3.4,mpmath-1.0.0,tabulate-0.8.2
+EBDEVELOPENMPI=/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/easybuild/mpi-OpenMPI-3.1.4-GCC-8.3.0-easybuild-devel
+CONDA_DEFAULT_ENV=root
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/lib:1;/cm/local/apps/lua/5.3.4/lib64:1;/cm/shared/apps/pc2/EB-SW/software/compiler/GCCcore/7.3.0/lib64:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/local/lib:1;/cm/shared/apps/pc2/CHEM_PHYS_SW/GPAW/ase-3.19.0/bin:1;/cm/shared/apps/pc2/EB-SW/software/ScaLAPACK/2.0.2-gompi-2019b/lib:1;/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0:1;/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib64:1;/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib/python3.7/site-packages/numpy-1.14.5-py3.7-linux-x86_64.egg/numpy/core/lib:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib:1;/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib64:1;/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/math/GMP/6.1.2-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/lib:1;/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/lib:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/libfabric/lib:2;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/lib/release:2;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/intel64/lib:2;/cm/shared/opt/intel/19.02/intelpython3/lib/libfabric:1;/cm/shared/opt/intel/19.02/intelpython3/lib:1;/cm/shared/opt/intel/19.02/itac/2019.3.032/intel64/slib:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64_lin:2;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/ipp/lib/intel64:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64_lin:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/tbb/lib/intel64/gcc4.7:2;/cm/shared/opt/intel/19.02/debugger_2019/libipt/intel64/lib:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/lib/intel64_lin:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4:1;/opt/cray/pe/lib64:2;/opt/cray/pe/lib64/cce:2;/opt/cray/lib64:2;/opt/cray/slurm/17.11.8/lib:1
+LMOD_SETTARG_FULL_SUPPORT=no
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+_ModuleTable020_=LjIuNC1HQ0Njb3JlLTguMy4wIixbImxvYWRPcmRlciJdPTE3LHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT02LFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ0b29scy9YWi81LjIuNC1HQ0Njb3JlLTguMy4wIix9LFsidG9vbHMvYmludXRpbHMiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL3Rvb2xzL2JpbnV0aWxzLzIuMzItR0NDY29yZS04LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0idG9vbHMvYmludXRpbHMvMi4zMi1HQ0Njb3JlLTguMy4wIixbImxvYWRPcmRlciJdPTIzLHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT00LFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2Vy
+EBROOTBZIP2=/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0
+EBDEVELNCURSES=/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/easybuild/devel-ncurses-6.1-GCCcore-8.3.0-easybuild-devel
+__Init_Default_Modules=1
+SLURM_STEP_TASKS_PER_NODE=1
+_ModuleTable016_=YW1lIl09InBjMmZzIix9LHNoYXJlZD17WyJmbiJdPSIvY20vbG9jYWwvbW9kdWxlZmlsZXMvc2hhcmVkIixbImZ1bGxOYW1lIl09InNoYXJlZCIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InNoYXJlZCIsfSxzbHVybT17WyJmbiJdPSIvb3B0L2NyYXkvbW9kdWxlZmlsZXMvc2x1cm0vMTcuMTEuOCIsWyJmdWxsTmFtZSJdPSJzbHVybS8xNy4xMS44IixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ic2x1cm0iLH0sWyJzeXN0ZW0vaHdsb2MiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VC
+INFOPATH=/cm/shared/opt/intel/19.02/documentation_2019/en/debugger/gdb-ia/info
+ACLOCAL_PATH=/cm/shared/apps/pc2/EB-SW/software/CMake/3.15.3-GCCcore-8.3.0/share/aclocal:/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/share/aclocal:/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/share/aclocal
+LMOD_FULL_SETTARG_SUPPORT=no
+SLURM_STEP_NODELIST=fpga-0001
+__LMOD_REF_COUNT_PKG_CONFIG_PATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/OpenBLAS/0.3.7-GCC-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/libpciaccess/0.14-GCCcore-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/lib/pkgconfig:1;/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/lib/pkgconfig:1;/cm/shared/opt/intel/19.02/advisor_2019.3.0.591490/include/pkgconfig/lib64:1;/cm/shared/opt/intel/19.02/vtune_amplifier_2019.3.0.591499/include/pkgconfig/lib64:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mkl/bin/pkgconfig:1
+EBVERSIONBZIP2=1.0.8
+XDG_RUNTIME_DIR=/run/user/69652
+CRAY_CPU_TARGET=x86-skylake
+_ModuleTable018_=cy8wLjE0LUdDQ2NvcmUtOC4zLjAiLFsibG9hZE9yZGVyIl09MTkscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTUsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InN5c3RlbS9saWJwY2lhY2Nlc3MvMC4xNC1HQ0Njb3JlLTguMy4wIix9LFsidG9vbGNoYWluL2Zvc3MiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL3Rvb2xjaGFpbi9mb3NzLzIwMThiLmx1YSIsWyJmdWxsTmFtZSJdPSJ0b29sY2hhaW4vZm9zcy8yMDE4YiIsWyJsb2FkT3JkZXIiXT03LHByb3BUPXt9LFsicmVmX2NvdW50Il09MSxbInN0YWNrRGVwdGgiXT0yLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ0b29sY2hh
+VTUNE_AMPLIFIER_2019_DIR=/cm/shared/opt/intel/19.02/vtune_amplifier_2019.3.0.591499
+EBVERSIONLIBXML2=2.9.9
+EBVERSIONGOMPI=2019b
+PC2DEPOT=/upb/depot
+_ModuleTable006_=ZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImRldmVsL1NRTGl0ZS8zLjI0LjAtR0NDY29yZS03LjMuMCIsfSxbImRldmVsL25jdXJzZXMiXT17WyJmbiJdPSIvY20vc2hhcmVkL2FwcHMvcGMyL0VCLVNXL21vZHVsZXMvYWxsL2RldmVsL25jdXJzZXMvNi4xLUdDQ2NvcmUtOC4zLjAubHVhIixbImZ1bGxOYW1lIl09ImRldmVsL25jdXJzZXMvNi4xLUdDQ2NvcmUtOC4zLjAiLFsibG9hZE9yZGVyIl09MjkscHJvcFQ9e30sWyJyZWZfY291bnQiXT0xLFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImRldmVsL25jdXJzZXMvNi4xLUdDQ2NvcmUtOC4zLjAiLH0saW50ZWw9e1siZm4iXT0iL29wdC9jcmF5L21v
+__LMOD_REF_COUNT_MANPATH=/cm/shared/apps/pc2/EB-SW/software/cURL/7.66.0-GCCcore-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/bzip2/1.0.8-GCCcore-8.3.0/man:1;/cm/shared/apps/pc2/EB-SW/software/ncurses/6.1-GCCcore-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/binutils/2.32-GCCcore-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/OpenMPI/3.1.4-GCC-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/hwloc/1.11.12-GCCcore-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/libxml2/2.9.9-GCCcore-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/XZ/5.2.4-GCCcore-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/numactl/2.0.12-GCCcore-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/GCCcore/8.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/lang/Python/3.7.0-foss-2018b/share/man:1;/cm/shared/apps/pc2/EB-SW/software/lib/libffi/3.2.1-GCCcore-7.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/devel/SQLite/3.24.0-GCCcore-7.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/lang/Tcl/8.6.8-GCCcore-7.3.0/man:1;/cm/shared/apps/pc2/EB-SW/software/lib/libreadline/7.0-GCCcore-7.3.0/share/man:1;/cm/shared/apps/pc2/EB-SW/software/numlib/FFTW/3.3.8-gompi-2018b/share/man:1;/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi/man:2;/cm/shared/opt/intel/19.02/intelpython3/share/man:1;/cm/shared/opt/intel/19.02/itac/2019.3.032/man:1;/cm/shared/opt/intel/19.02/clck/2019.2.1/man:1;/cm/shared/opt/intel/19.02/man/common:1;/cm/shared/opt/intel/19.02/documentation_2019/en/debugger/gdb-ia/man:1;/opt/cray/slurm/17.11.8/share/man:3;/usr/share/lmod/lmod/share/man:1;/usr/local/share/man:2;/usr/share/man/overrides:2;/usr/share/man:2;/cm/local/apps/environment-modules/current/share/man:2
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+SLURM_CPU_BIND=quiet,mask_cpu:0xFFFFFFFFFF
+EBROOTZLIB=/cm/shared/apps/pc2/EB-SW/software/zlib/1.2.11-GCCcore-8.3.0
+EBDEVELFOSS=/cm/shared/apps/pc2/EB-SW/software/toolchain/foss/2018b/easybuild/toolchain-foss-2018b-easybuild-devel
+LMOD_COLORIZE=0
+I_MPI_ROOT=/cm/shared/opt/intel/19.02/compilers_and_libraries_2019.3.199/linux/mpi
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/usr/bin/env
+LSB Version:	:core-4.1-amd64:core-4.1-noarch
+Distributor ID:	CentOS
+Description:	CentOS Linux release 7.4.1708 (Core) 
+Release:	7.4.1708
+Codename:	Core
+Linux fpga-0001 3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                40
+On-line CPU(s) list:   0-39
+Thread(s) per core:    1
+Core(s) per socket:    20
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6148F CPU @ 2.40GHz
+Stepping:              4
+CPU MHz:               3099.937
+CPU max MHz:           3700,0000
+CPU min MHz:           1000,0000
+BogoMIPS:              4800.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              28160K
+NUMA node0 CPU(s):     0-19
+NUMA node1 CPU(s):     20-39
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req
+MemTotal:       196699328 kB
+MemFree:        187449112 kB
+MemAvailable:   186917752 kB
+Buffers:            1988 kB
+Cached:          4952060 kB
+SwapCached:            0 kB
+Active:          4222928 kB
+Inactive:         795812 kB
+Active(anon):    3868892 kB
+Inactive(anon):   763336 kB
+Active(file):     354036 kB
+Inactive(file):    32476 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                24 kB
+Writeback:             0 kB
+AnonPages:         63916 kB
+Mapped:           140116 kB
+Shmem:           4567492 kB
+Slab:             549604 kB
+SReclaimable:     118388 kB
+SUnreclaim:       431216 kB
+KernelStack:       16960 kB
+PageTables:         5152 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    98349664 kB
+Committed_AS:    4855620 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:     1303212 kB
+VmallocChunk:   34257855760 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:     14336 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      403164 kB
+DirectMap2M:    13965312 kB
+DirectMap1G:    187695104 kB
+NAME MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda    8:0    0 223,6G  0 disk /tmp
+[6:0:0:0]    disk    ATA      INTEL SSDSC2KB24 0121  /dev/sda    240GB
+00:00.0 Host bridge: Intel Corporation Device 2020 (rev 04)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+00:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+00:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:11.0 Unassigned class [ff00]: Intel Corporation Device a1ec (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation Device a1ed (rev 09)
+00:11.5 SATA controller: Intel Corporation Lewisburg SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation Lewisburg USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation Device a1b1 (rev 09)
+00:16.0 Communication controller: Intel Corporation Lewisburg CSME: HECI #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation Lewisburg CSME: HECI #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation Lewisburg CSME: HECI #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation Lewisburg SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #4 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation Lewisburg LPC Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation Lewisburg PMC (rev 09)
+00:1f.4 SMBus: Intel Corporation Lewisburg SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Lewisburg SPI Controller (rev 09)
+01:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+02:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+15:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04)
+15:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+15:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+15:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+15:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+15:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+15:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+15:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+15:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+15:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+15:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+15:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+16:00.0 Processing accelerators: Altera Corporation Device 5170 (rev 01)
+38:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04)
+38:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+38:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+38:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+38:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+38:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+38:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+38:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+38:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+38:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+38:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+38:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+38:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+38:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+38:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+38:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+38:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+38:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+38:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+38:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+38:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+38:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+38:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+38:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+38:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+38:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+38:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+38:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+38:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+38:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+39:00.0 PCI bridge: Intel Corporation Device 37c0 (rev 09)
+3a:03.0 PCI bridge: Intel Corporation Device 37c5 (rev 09)
+3b:00.0 Ethernet controller: Intel Corporation Ethernet Connection X722 for 10GBASE-T (rev 09)
+3b:00.1 Ethernet controller: Intel Corporation Ethernet Connection X722 for 10GBASE-T (rev 09)
+5b:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port C (rev 04)
+5b:03.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port D (rev 04)
+5b:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+5b:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+5b:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+5b:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5b:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5b:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5b:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5b:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5b:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5b:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5b:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5b:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5b:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5b:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+7e:00.0 PCI bridge: Intel Corporation Device 203f (rev 04)
+7e:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+7e:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+7e:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+7f:00.0 Fabric controller: Intel Corporation Omni-Path HFI Silicon 100 Series [integrated] (rev 11)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+80:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+80:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+85:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+85:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+ae:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04)
+ae:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+ae:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+ae:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+ae:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+af:00.0 Processing accelerators: Altera Corporation Device 5170 (rev 01)
+d7:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 04)
+d7:01.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port B (rev 04)
+d7:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+d7:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+d7:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
