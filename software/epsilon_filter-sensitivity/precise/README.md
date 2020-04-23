@@ -1,4 +1,4 @@
-#Calculation of precise band energy
+# Calculation of precise band energy
 
 Relevant line in output:
 

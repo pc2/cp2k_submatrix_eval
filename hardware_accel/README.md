@@ -18,6 +18,7 @@ To make the tests more reproducible, instead of performing a complete calculatio
 * same as CPU-Nodes except one CPU is a Intel Xeon Gold 6148F (integrated Omni-Path HFI)
 * 2x Bittware 520N (Intel Stratix 10 GX2800, 32 GB quad-channel DDR4, PCIe-3.0, electrically x16, working only x8)
 * These nodes have been used for the FPGA-based acceleration. Only one FPGA was used.
+* CentOS 7.4.1708, kernel 3.10.0-693.2.2.el7.x86_64
 * Intel FPGA SDK for OpenCL 19.2, Bittware 520N board support package
 * see also fpga/fpga_node.txt
 
@@ -26,7 +27,7 @@ To make the tests more reproducible, instead of performing a complete calculatio
 * GPU-nodes with dual-socket Intel Xeon E5-2670 (2x8 cores, HT disabled, 4-channel DDR3)
 * 64 GB memory per node
 * one Nvidia RTX 2080 Ti (ZOTAC GAMING GeForce RTX 2080 Ti Blower, 11 GB GDDR6, PCIe-3.0 x16)
-* CentOS 7.2, kernel 3.10.0-693.17.1.el7.x86_64
+* Scientific Linux release 7.2, kernel 3.10.0-693.17.1.el7.x86_64
 * CUDA 10.2
 * see also gpu/gpu_node.txt
 
