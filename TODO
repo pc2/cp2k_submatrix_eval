@@ -1,0 +1,5 @@
+# TODO
+
+* clone cp2k from https://github.com/pc2/cp2k
+* complete detailed description of sparsity and dimension exploration
+* complete detailed description of exploration of heuristics
