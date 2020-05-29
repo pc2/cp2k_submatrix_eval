@@ -3,3 +3,5 @@
 * clone cp2k from https://github.com/pc2/cp2k
 * complete detailed description of sparsity and dimension exploration
 * complete detailed description of exploration of heuristics
+
+* Don't forget to mention METIS 5.1.0 (http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) and Scikit-learn 0.23.1 in used libraries. 

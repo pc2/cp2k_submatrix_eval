@@ -26,10 +26,16 @@ The obtain the results presented in the paper, several steps have to be executed
         6. Computes the sparsity of the first submatrix in terms of the number of non-zero blocks. (output "sparsity of submatrix (blocks)")
         7. Constructs the first submatrix in terms of elements and computes the number of non-zero elements. (output "non-zero elements")
 
-Thus, the output of sm.sh, for example,
+The output of sm.sh, for example, looks like
 ```
-FIXME
-
-
+ $bash sm.sh H2OTEST_SZV_7_SUBMATRIX_0.00001_12 7 6
+ running forH2OTEST_SZV_7_SUBMATRIX_0.00001_12                                                                  with NREP=           7  and bs=           6
+ reading strcture of matrix
+ sparsity of full matrix (blocks)     1027530
+ single column smdim=           1          90   729000.00000000000     
+ sparsity of submatrix (blocks)        3936
+ smdim          90
+ reading blocks
+ non-zero elements       80510   
 ```
-contains the information depicted in Figures 4 and 11.
+and, thus, if the procedure outlined above is performed for the different basis sets, number of atoms (represented by NREP) and for a given cutoff of the matrix elements, the information depicted in Figures 4 and 11 can be reproduced.
