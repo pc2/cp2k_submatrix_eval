@@ -1,6 +1,6 @@
 # Introduction
 
-This folder contains the information sources to reproduce the results presented in the chapter "Hardware Acceleration" in the paper. 
+This folder contains the information sources to reproduce the results presented in the chapter "Hardware Acceleration" in the paper.
 
 To make the tests more reproducible, instead of performing a complete calculation in CP2K with the submatrix method, we have exported the matrix for which the submatrix is to be constructed from CP2K into a directory based structure where each file contains an individual block. Due to the different availability we had to use two cluster system of Paderborn Center of Parallel Computing:
 
@@ -12,7 +12,8 @@ To make the tests more reproducible, instead of performing a complete calculatio
 * CentOS 7.5.1804, kernel 3.10.0-693.2.2.el7.x86_64
 * 100 Gbit/s Omni-Path interconnect in fat-tree-topology
 * These nodes have been used for the CPU-based evaluation of the submatrix method and the export of the matrices for GPU- and FPGA acceleration.
-* see also cpu_node.txt
+
+The output of the `collect_environment.sh` script can be found in `cpu_node.txt`.
 
 ### FPGA-Nodes
 * same as CPU-Nodes except one CPU is a Intel Xeon Gold 6148F (integrated Omni-Path HFI)
@@ -20,7 +21,8 @@ To make the tests more reproducible, instead of performing a complete calculatio
 * These nodes have been used for the FPGA-based acceleration. Only one FPGA was used.
 * CentOS 7.4.1708, kernel 3.10.0-693.2.2.el7.x86_64
 * Intel FPGA SDK for OpenCL 19.2, Bittware 520N board support package
-* see also fpga/fpga_node.txt
+
+The output of the `collect_environment.sh` script can be found in `fpga/fpga_node.txt`.
 
 ## OCuLUS
 ### GPU-Nodes
@@ -29,7 +31,8 @@ To make the tests more reproducible, instead of performing a complete calculatio
 * one Nvidia RTX 2080 Ti (ZOTAC GAMING GeForce RTX 2080 Ti Blower, 11 GB GDDR6, PCIe-3.0 x16)
 * Scientific Linux release 7.2, kernel 3.10.0-693.17.1.el7.x86_64
 * CUDA 10.2
-* see also gpu/gpu_node.txt
+
+The output of the `collect_environment.sh` script can be found in `gpu/gpu_node.txt`.
 
 An additional reason for exporting the matrix from CP2K instead of running a complete calculation in CP2K is that the main memory of the GPU-nodes in Oculus was not sufficient for some of the tests.
 
@@ -42,7 +45,7 @@ Thus, the steps are as follows:
 3. Generate the submatrix from the exported sparse matrix for use in the GPU-based and FPGA-based code.
 
 ## Details for Step 1.
-Instructions on how to compile CP2K can be found at https://github.com/pc2/cp2k/blob/sc_eval/INSTALL.md. 
+Instructions on how to compile CP2K can be found at https://github.com/pc2/cp2k/blob/sc_eval/INSTALL.md.
 The export of the matrices has been performed on a CPU-node of Noctua. Thus, we have used CP2K only on the CPU-Nodes of Noctua.
 
 ## Details for Step 2.
@@ -87,4 +90,3 @@ The resulting bitstream can be found in fpga/bitstream/matrix_mult.aocx. Please 
 ## Measurement of Power Consumption
 
 The power consumption was during calculations was measured with a tool "card monitor utility" from Nallatech/Bittware that reads the current and voltage on the PCI-Express bus and the additional 12V power connectors from the FPGA board.
-

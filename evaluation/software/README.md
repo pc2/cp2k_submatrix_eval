@@ -10,11 +10,12 @@ The software evaluation has been performed on the Noctua system of the Paderborn
 * Lustre file system
 * CentOS 7.5.1804, kernel 3.10.0-693.2.2.el7.x86_64
 * 100 Gbit/s Omni-Path interconnect in fat-tree-topology
-* see also cpu_node.txt
+
+The output of the `collect_environment.sh` script can be found in `cpu_node.txt`.
 
 # Evaluated code
 
-The evaluation has been performed using a customized version of CP2K, including experimental features of the submatrix method that have not been included upstream yet. It is available at https://github.com/pc2/cp2k/tree/c7af285016b4d006bc0ff88bf8720f9b5529cb31 and is also linked into this repository as a submodule (`../cp2k`).
+The evaluation has been performed using a customized version of CP2K, including experimental features of the submatrix method that have not been included upstream yet. It corresponds to revision c7af285016b4d006bc0ff88bf8720f9b5529cb31 in the provided cp2k repository.
 
 # Used compilers and libraries
 
@@ -35,7 +36,9 @@ make -j ARCH="Linux-x86-64-intel" VERSION="psmp"
 
 # Overview of folders, each with its own README
 
-* epsilon_filter-sensitivity: inputs, scripts and outputs used to produce Figures 4 and 5
-* linear-scaling: inputs, scripts and outputs used to produce Figure 6
-* strong-scaling: inputs, scripts and outputs used to produce Figure 7
-* weak-scaling: inputs, scripts and outputs used to produce Figure 8
+* epsilon_filter-sensitivity: inputs, scripts and outputs used to produce Figures 6 and 7
+* linear-scaling: inputs, scripts and outputs used to produce Figure 8
+* strong-scaling: inputs, scripts and outputs used to produce Figure 9
+* weak-scaling: inputs, scripts and outputs used to produce Figure 10
+
+Each of these folders contain their own READMEs.
