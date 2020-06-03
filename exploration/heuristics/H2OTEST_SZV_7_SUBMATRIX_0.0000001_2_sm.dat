@@ -1,0 +1,72 @@
+ running forH2OTEST_SZV_6_SUBMATRIX_0.0000001_2                                                                 with NREP=           6  and bs=           6
+ reading strcture of matrix
+ sparsity of full matrix (blocks)     1663992
+ metis performance           2   4.2952247714259286     
+ metis performance          71   1.0202767243448181     
+ metis performance         140  0.79895402614291267     
+ metis performance         209  0.73529494859655153     
+ metis performance         278  0.68280818826860579     
+ metis performance         347  0.66527191192534363     
+ metis performance         416  0.65516258901069568     
+ metis performance         485  0.63901485647588929     
+ metis performance         554  0.64915197187309570     
+ metis performance         623  0.64116118373122954     
+ metis performance         692  0.64740111767527897     
+ metis performance         761  0.66150522851347360     
+ metis performance         830  0.66754687752237807     
+ metis performance         899  0.65726402275362317     
+ metis performance         968  0.66483519759172804     
+ metis performance        1037  0.67960275769984513     
+ metis performance        1106  0.66363228984278555     
+ metis performance        1175  0.66989993232169520     
+ metis performance        1244  0.68597684011256355     
+ metis performance        1313  0.67687500991743921     
+ metis performance        1382  0.67895550172804675     
+ metis performance        1451  0.71451576362090841     
+ metis performance        1520  0.69903993856004087     
+ metis performance        1589  0.69387258315628120     
+ metis performance        1658  0.69577785569044959     
+# metis performance        1727   1.5262695560576058     
+# metis performance        1796  0.71338427169937590     
+# metis performance        1865  0.70207182297139925     
+# metis performance        1934                       NaN
+# metis performance        2003                       NaN
+# metis performance        2072                       NaN
+ single column smdim=           1         246   14886936.000000000     
+ sparsity of submatrix (blocks)       27644
+ smdim         246
+ reading blocks
+ non-zero elements      262162        1476
+   2.3794680000000001        9.3580186666666663        5.4017786666666661     
+ unperiodic kmeans fortran performance           2   2.0958989659404095             3420   4.1917979318808190     
+ unperiodic kmeans fortran performance          71   1.0773381218381806               92   1.0093979627214906     
+ unperiodic kmeans fortran performance         140  0.83463646377449285               56  0.84277556342016924     
+ unperiodic kmeans fortran performance         209  0.75500002992817117               23  0.72680646043413932     
+ unperiodic kmeans fortran performance         278  0.70876724164835292               22  0.82313212555809157     
+ unperiodic kmeans fortran performance         347  0.68806820440945615               18  0.68385996658785630     
+ unperiodic kmeans fortran performance         416  0.67311221674001931               19  0.67211658456430312     
+ unperiodic kmeans fortran performance         485  0.66563454094479291               18  0.66595879396837898     
+ unperiodic kmeans fortran performance         554  0.66125491172010398               11  0.77715196367167461     
+ unperiodic kmeans fortran performance         623  0.66241108383184499                9  0.78983357548449784     
+ unperiodic kmeans fortran performance         692  0.65991116035112973                9  0.71704861825757082     
+ unperiodic kmeans fortran performance         761  0.66385885665084576                6  0.64388060332450769     
+ unperiodic kmeans fortran performance         830  0.66709676821633723                6  0.64388060332450769     
+ unperiodic kmeans fortran performance         899  0.66989245114466245                6  0.64388060332450769     
+ unperiodic kmeans fortran performance         968  0.67557448433169975                6  0.64388060332450769     
+ unperiodic kmeans fortran performance        1037  0.67979430069898705                6  0.64388060332450769     
+ unperiodic kmeans fortran performance        1106  0.68307209678306424                6  0.64388060332450769     
+ unperiodic kmeans fortran performance        1175  0.68482340785985474                6  0.64388060332450769     
+ unperiodic kmeans fortran performance        1244  0.68868400084619796                6  0.64388060332450769     
+ unperiodic kmeans fortran performance        1313  0.69316688097328227                6  0.64388060332450769     
+ unperiodic kmeans fortran performance        1382  0.69523477534673839                6  0.64388060332450769     
+ unperiodic kmeans fortran performance        1451  0.70030580546212851                5  0.66952705378729382     
+ unperiodic kmeans fortran performance        1520  0.70507424561603482                5  0.66952705378729382 
+ unperiodic kmeans fortran performance        1589  0.71000793956384267                5  0.64793109878352406
+ unperiodic kmeans fortran performance        1658  0.71451835477911962                3  0.74060820843187614
+ unperiodic kmeans fortran performance        1727  0.71984254626122046                3  0.74060820843187614
+# unperiodic kmeans fortran performance        1796  0.72485261673035484                3  0.74060820843187614
+# unperiodic kmeans fortran performance        1865  0.72922505098533685                3  0.74060820843187614
+# unperiodic kmeans fortran performance        1934  0.73326123722949332                3  0.74060820843187614
+# unperiodic kmeans fortran performance        2003  0.73774653360003006                3  0.74060820843187614
+
+
