@@ -1,6 +1,6 @@
 # Exploration
 
-This subdirectory contains to reproduce the heuristice in discussed in section IV.C and the sparsities shown in out paper. 
+This subdirectory contains to reproduce the heuristice in discussed in section IV.C and the sparsities shown in our paper. 
 
 It has two subdirectories: 
 
