@@ -1,6 +1,6 @@
 # Exploration
 
-This subdirectory contains instructions and input data to reproduce the heuristic discussed in section IV.C and the sparsities shown in our paper.
+This subdirectory contains instructions and input data used to evaluate the heuristic discussed in section IV.C and to obtain the sizes and sparsities of submatrices shown in our paper.
 
 It contains three subdirectories:
 

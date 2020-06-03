@@ -40,12 +40,12 @@ An additional reason for exporting the matrix from CP2K instead of running a com
 
 Thus, the steps are as follows:
 
-1. Compile CP2K from https://github.com/pc2/cp2k/tree/fc11aca067bdf33a249456b22cc6d3f81ad60235 using the architecture file arch/Linux-x86-64-intel.psmp
+1. Compile CP2K from revision fc11aca067bdf33a249456b22cc6d3f81ad60235 of the provided repository using the architecture file arch/Linux-x86-64-intel.psmp
 2. Export the sparse matrix from CP2K.
 3. Generate the submatrix from the exported sparse matrix for use in the GPU-based and FPGA-based code.
 
 ## Details for Step 1.
-Instructions on how to compile CP2K can be found at https://github.com/pc2/cp2k/blob/sc_eval/INSTALL.md.
+Instructions on how to compile CP2K can be found in the INSTALL.md file within the cp2k tree.
 The export of the matrices has been performed on a CPU-node of Noctua. Thus, we have used CP2K only on the CPU-Nodes of Noctua.
 
 ## Details for Step 2.
@@ -76,7 +76,7 @@ The power consumption was during calculations was read with the tool "nvidia-smi
 
 As discussed in the paper, the matrix-matrix multiplication kernel is based on the OpenCL-based example included in the Intel FPGA SDK for OpenCL 19.2. Our modified version that reaches up to 3.4 TFLOP/s can be found in fpga/synthesis/device/matrix_mult.cl. It was synthesized for the 19.2_hpc BSP for the Bittware 520N board.
 The synthesis can be executed, provided the corresponding SDK and BSP in installed with the script fpga/synthesis/job.sh.
-The resulting bitstream can be found in fpga/bitstream/matrix_mult.aocx. Please note, that the bitstream was too large to be included in the Github-Repository and is instead hosted on Github's Git Large File Storage (LFS, https://git-lfs.github.com/).
+The resulting bitstream can be found in fpga/bitstream/matrix_mult.aocx.
 
 ## FPGA-accelerated Implementation
 
