@@ -1,32 +1,31 @@
-# Dimensions and Sparsity of Submatrices
+# Heuristics
 
 Please note, the basis sets DVZP-MOLOPT-SR-GTH and SZV-MOLOPT-SR-GTH are abbreviated here as DZVP and SZV respectively.
 
 The obtain the results presented in the paper, several steps have to be executed:
 
 1. Production of raw data:
-  * The version of CP2K to export the required data is commit 0448736ad07a8f5103531f3d4751ac53ee533978 of the cp2k-repository at the top level of this archive. Please note that this version of CP2K writes out the complete block structure and all blocks of the orthogonalized Kohn-Sham matrix so that later analysis doesn't require CP2K runs but consumes a significant amount of disk space. This version will produce the following files/directories in addition to the conventional output:
-     * matrix_ssqrtinv_ks_ssqrtinv_binary the output og the orthogonalized Kohn-Sham Matrix in the DBCSR-specific binary format 
-     * The directory matrix_ssqrtinv_ks_ssqrtinv that contains a subdirectory for every column of the matrix and in each of those subdirectories are files for each non-zero block in this column. Directory and file names denote the indices.
+  * The version of CP2K to export the required data is commit 0448736ad07a8f5103531f3d4751ac53ee533978 of the cp2k-repository at the top level of this archive. Please note that this version of CP2K writes out the complete block structure and all blocks of the orthogonalized Kohn-Sham matrix so that later analysis doesn't require additional CP2K runs. Running this version consumes a significant amount of disk space. It will produce the following files/directories in addition to the conventional output:
+     * matrix_ssqrtinv_ks_ssqrtinv_binary: dump of the orthogonalized Kohn-Sham Matrix in the DBCSR-specific binary format
+     * The directory matrix_ssqrtinv_ks_ssqrtinv that contains a subdirectory for every column of the matrix. Each of these subdirectories contains files for each non-zero block in this column. Directory and file names denote the indices.
      * The files fort.100, fort.101,... which for every MPI rank contain the list of indices of non-zero blocks.
      * H2O-COORD.XYZ-pos-1.xyz contains the coordinates of the atoms.
   * Raw data for a given system size in terms of three-dimensional repetitions of a 32-molecule basic block (NREP times NREP times NREP basic blocks), the basis set and given matrix thresholds can be generated with the script loop.sh. A generic input for CP2K is H2O-dft-ls.inp and a template for the jobscipt for the Noctua system is in template.sh. The script loop.sh takes H2O-dft-ls.inp and the template jobscript template.sh and creates the actual input files as well as matching job scripts.
   * The naming convention of the directories that will be created by loop.sh is (description)_(basis)_(NREP)_(method)_(matrix threshold)_(number of nodes), e.g. H2OTEST_DZVP_4_SUBMATRIX_0.00001_2.
 
-2. Analysis of raw data: 
+2. Analysis of raw data:
   * The wrapper script sm.sh takes the name of the data directory of a run, the corresponding NREP-parameter and the blocks dimension (SZV=6, DZVP=23) as commandline arguments and performs the following steps:
      1. Compiling sm.f90 to sm.x.
      2. Concatenation of the fort.* files in the data directory of the calculation to the file blocks.dat which contains a list of the indices of all non-zero blocks in the orthongonalized Kohn-Sham matrix.
-     3. Then sm.x perform the steps:
-        1. Readin of the indices of non-zero blocks from blocks.dat.
-        2. Writeout of the graph representing the sparsite pattern of the orthogonalized Kohn-Sham matrix to the file graph.
-        3. Calls the wrapper metis.sh that runs the commandline utility gpmetis that clusters the graph given in the file graph and writes the resulting partition to the file graph.out.
+     3. Then sm.x perform these steps:
+        1. Reading in the indices of non-zero blocks from blocks.dat.
+        2. Writing out of the graph representing the sparsite pattern of the orthogonalized Kohn-Sham matrix to the file graph.
+        3. Calling the wrapper metis.sh that runs the commandline utility gpmetis that clusters the graph given in the file graph and writes the resulting partition to the file graph.out.
         4. The file graph.out is then read in the fortran program and the clustering is used to estimate the speedup S defined in the paper. Please note, that not the speedup but the inverse of the speedup 1/S is outputted to the commandline together with number of submatrices.(outputs "metis performance...")
         5. The xyz-file H2O-COORD.XYZ-pos-1.xyz containing the coordinates of atoms in the system is read and the three position of each atom in a molecule are averaged because each molecule corresponds to a block.
         6. A k-means implementation from Scikit-learn is called by executing the wrapper clustering.py which performs a k-means clustering and writes the results to the file, which is automatically read from the fortran program.
         7. The fortran program uses the clusters to compute the estimated speedup S defined in the paper. Please note, that not the speedup but the inverse of the speedup 1/S is outputted to the commandline together with number of submatrices.(outputs "unperiodic kmeans scikit performance...")
         8. A simple fortran implementaion of k-means from https://rosettacode.org/wiki/K-means%2B%2B_clustering#Fortran is used to create comparison results. (output "unperiodic kmeans fortran performance")
-
 
 The output of sm.sh, for example, looks like
 ```
