@@ -13,7 +13,12 @@ The obtain the results presented in the paper, several steps have to be executed
   * Raw data for a given system size in terms of three-dimensional repetitions of a 32-molecule basic block (NREP times NREP times NREP basic blocks), the basis set and given matrix thresholds can be generated with the script loop.sh. A generic input for CP2K is H2O-dft-ls.inp and a template for the jobscipt for the Noctua system is in template.sh. The script loop.sh takes H2O-dft-ls.inp and the template jobscript template.sh and creates the actual input files as well as matching job scripts.
   * The naming convention of the directories that will be created by loop.sh is (description)_(basis)_(NREP)_(method)_(matrix threshold)_(number of nodes), e.g. H2OTEST_DZVP_4_SUBMATRIX_0.00001_2.
 
-2. Analysis of raw data:
+2. Additional Programs
+  * The clustering explored here requires two additional programs:
+     * METIS 5.1.0 that can be downlaoded from http://glaros.dtc.umn.edu/gkhome/metis/metis/download
+     * Scikit-learn 0.23.1 that can be downloaded from https://scikit-learn.org/stable/
+
+3. Analysis of raw data:
   * The wrapper script sm.sh takes the name of the data directory of a run, the corresponding NREP-parameter and the blocks dimension (SZV=6, DZVP=23) as commandline arguments and performs the following steps:
      1. Compiling sm.f90 to sm.x.
      2. Concatenation of the fort.* files in the data directory of the calculation to the file blocks.dat which contains a list of the indices of all non-zero blocks in the orthongonalized Kohn-Sham matrix.
