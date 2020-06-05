@@ -2,9 +2,10 @@
 
 This archive contains all data required to reproduce the results in our paper. It also contains detailed information about the systems we performed our evaluation on as well as the used compilers and libraries.
 
-This archive is structured into three subdirectories:
+You will also need our modified CP2K code. It can be found in an archived git repository with doi: 10.5281/zenodo.3878669
 
-* cp2k: The git repository of our modified CP2K code. The required commits are given in the individual READMEs in the subdirectories.
+This archive is structured into two subdirectories:
+
 * evaluation:
   * software: Software evaluation from Section V of our paper (Figures 6-10).
   * hardware_accel: Evaluation of GPU and FPGA acceleration from Section VI of our paper (Figures 12, 13).
